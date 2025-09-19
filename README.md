@@ -27,6 +27,34 @@ There are 20 and 2000 icons that are displayed in a grid view with X items (25 c
 - SVG icons are loaded from assets using `flutter_svg` package.
 - Iconfont icons are loaded from a custom icon font created by `icon_font_generator` package.
 
+## How to compile SVG to vector graphics
+
+This project also includes a benchmark for SVGs compiled to an optimized binary format using the `vector_graphics` package.
+
+1.  Run the compiler. This command will take the SVGs from `assets/icons` and create optimized `.vec` files in `assets/icons_vec`.
+
+    ```bash
+    dart run vector_graphics_compiler --input-dir "assets/icons" --out-dir "assets/icons_vec" --font-size=24
+    ``` 
+
+## How to generate the icon font
+
+The project uses `icon_font_generator` to create a font file and a Dart class from SVG icons in the `assets/icons` directory.
+
+1.  Make sure you have `icon_font_generator` globally activated:
+    ```bash
+    dart pub global activate icon_font_generator
+    ```
+
+2.  Run the generator. This command will take the SVGs from `assets/icons`, create `assets/iconfont/Symbols.otf`, and generate the Dart mapping file at `lib/icons/symbols.gen.dart`.
+    ```bash
+    dart pub global run icon_font_generator:generator assets/icons assets/iconfont/Symbols.otf --font-name Symbols --class-name Symbols -r -v --normalize -o lib/icons/symbols.gen.dart --no-ignore-shapes
+    ```
+3. Run the script symbols_gen.dart to add `const List<IconData> values` to the symbols.dart file.
+    ```bash
+    dart .\bin\symbols_gen.dart
+    ```
+
 ## How to create charts
 
 - Install [uv](https://github.com/astral-sh/uv) package manager`

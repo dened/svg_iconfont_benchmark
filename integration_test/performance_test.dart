@@ -43,17 +43,17 @@ void main() {
   final testCases = [
     (
       name: 'SVG',
-      widgetBuilder: (count) => SvgScreen(itemCount: count),
+      widgetBuilder: (count) => SvgScreen(itemCount: count, changeColor: false,),
       reportKeyPrefix: 'svg',
     ),
     (
       name: 'SVG Vec',
-      widgetBuilder: (count) => SvgVecScreen(itemCount: count),
+      widgetBuilder: (count) => SvgVecScreen(itemCount: count, changeColor: false,),
       reportKeyPrefix: 'svg_vec',
     ),
     (
       name: 'IconFont',
-      widgetBuilder: (count) => IconFontScreen(itemCount: count),
+      widgetBuilder: (count) => IconFontScreen(itemCount: count, changeColor: false,),
       reportKeyPrefix: 'iconfont',
     ),
   ];

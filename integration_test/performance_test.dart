@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
+import 'package:svg_benchmark/custom_painters_screen.dart';
 import 'package:svg_benchmark/icon_font_display_screen.dart';
 import 'package:svg_benchmark/svg_screen.dart';
 import 'package:svg_benchmark/svg_vec_screen.dart';
+import 'package:svg_benchmark/picture_screen.dart';
+import 'package:svg_benchmark/render_box_screen.dart';
 
 // Function to run a performance test with scrolling.
 void _runPerfTestWithScrolling(
@@ -38,7 +41,7 @@ void _runPerfTestWithScrolling(
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-  const itemCounts = [20, 500, 2000]; 
+  const itemCounts = [500, 2000]; 
 
   final testCases = [
     (
@@ -55,6 +58,22 @@ void main() {
       name: 'IconFont',
       widgetBuilder: (count) => IconFontScreen(itemCount: count, changeColor: false,),
       reportKeyPrefix: 'iconfont',
+    ),
+    (
+      name: 'Picture',
+      widgetBuilder: (count) => PictureScreen(itemCount: count, changeColor: false),
+      reportKeyPrefix: 'picture',
+    ),
+
+        (
+      name: 'Painter',
+      widgetBuilder: (count) => CustomPaintersScreen(itemCount: count, changeColor: false),
+      reportKeyPrefix: 'painter',
+    ),
+        (
+      name: 'RenderBox',
+      widgetBuilder: (count) => RenderBoxScreen(itemCount: count, changeColor: false),
+      reportKeyPrefix: 'renderbox',
     ),
   ];
 

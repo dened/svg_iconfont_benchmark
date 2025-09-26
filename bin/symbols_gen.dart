@@ -15,7 +15,7 @@ void main() {
         orElse: () => notFoundMark,
       ) !=
       notFoundMark) {
-    print('Values list already exists, skipping generation');
+    stdout.writeln('Values list already exists, skipping generation');
     return;
   }
 
@@ -39,10 +39,10 @@ void main() {
 
   file.writeAsStringSync(newClass.toString());
 
-  print('Values list generated with ${icons.length} icons');
+  stdout.writeln('Values list generated with ${icons.length} icons');
 
   // run dart format
   Process.runSync('dart', ['format', file.path]);
 
-  print('File formatted with dart format');
+  stdout.writeln('File formatted with dart format');
 }

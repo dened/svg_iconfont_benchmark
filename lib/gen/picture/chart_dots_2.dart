@@ -1,0 +1,190 @@
+// ignore_for_file: cascade_invocations, prefer_int_literals, unused_import
+
+import 'dart:math';
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+import 'package:flutter/widgets.dart';
+
+/// {@template ChartDots2}
+/// ChartDots2 widget.
+/// {@endtemplate}
+class ChartDots2 extends LeafRenderObjectWidget {
+  /// {@macro ChartDots2}
+  const ChartDots2({super.key, this.width, this.height, this.colorFilter});
+
+  final double? width;
+  final double? height;
+  final ui.ColorFilter? colorFilter;
+
+  static const Size svgSize = Size(24, 24);
+
+  @override
+  RenderObject createRenderObject(BuildContext context) =>
+      ChartDots2RenderObject()
+        ..width = width
+        ..height = height
+        ..colorFilter = colorFilter;
+
+  @override
+  void updateRenderObject(
+    BuildContext context,
+    ChartDots2RenderObject renderObject,
+  ) {
+    renderObject
+      ..width = width
+      ..height = height
+      ..colorFilter = colorFilter;
+  }
+}
+
+class ChartDots2RenderObject extends RenderBox {
+  ChartDots2RenderObject();
+
+  final _painter = _ChartDots2Painter();
+
+  ui.ColorFilter? _colorFilter;
+  double? _width;
+  double? _height;
+
+  set width(double? value) {
+    if (_width == value) {
+      return;
+    }
+    _width = value;
+    markNeedsLayout();
+  }
+
+  set height(double? value) {
+    if (_height == value) {
+      return;
+    }
+    _height = value;
+    markNeedsLayout();
+  }
+
+  set colorFilter(ui.ColorFilter? value) {
+    if (_colorFilter == value) {
+      return;
+    }
+    _colorFilter = value;
+    markNeedsPaint();
+  }
+
+  double _scale = 1.0;
+
+  @override
+  bool get isRepaintBoundary => false;
+
+  @override
+  bool get sizedByParent => false;
+
+  @override
+  Size computeDryLayout(BoxConstraints constraints) {
+    final desiredWidth = _width ?? ChartDots2.svgSize.width;
+    final desiredHeight = _height ?? ChartDots2.svgSize.height;
+    final desiredSize = Size(desiredWidth, desiredHeight);
+    return constraints.constrain(desiredSize);
+  }
+
+  @override
+  void performLayout() {
+    size = computeDryLayout(constraints);
+    if (ChartDots2.svgSize.width == 0 || ChartDots2.svgSize.height == 0) {
+      _scale = 1.0;
+      return;
+    }
+    _scale = min(
+      size.width / ChartDots2.svgSize.width,
+      size.height / ChartDots2.svgSize.height,
+    );
+  }
+
+  @override
+  bool hitTestSelf(Offset position) => true;
+
+  @override
+  void paint(PaintingContext context, Offset offset) {
+    final scale = _scale;
+    final canvas = context.canvas..save();
+
+    final dx = (size.width - ChartDots2.svgSize.width * scale) / 2;
+    final dy = (size.height - ChartDots2.svgSize.height * scale) / 2;
+
+    canvas
+      ..translate(offset.dx + dx, offset.dy + dy)
+      ..scale(scale, scale);
+
+    canvas.drawPicture(_painter.getPicture(_colorFilter));
+
+    canvas.restore();
+  }
+}
+
+class _ChartDots2Painter {
+  ui.Picture? _picture;
+  ui.ColorFilter? _colorFilter;
+
+  ui.Picture getPicture(ui.ColorFilter? newColorFilter) {
+    if (_picture == null || _colorFilter != newColorFilter) {
+      _colorFilter = newColorFilter;
+      _createPicture();
+    }
+    return _picture!;
+  }
+
+  void _createPicture() {
+    _picture?.dispose();
+    final recorder = ui.PictureRecorder();
+    final canvas = Canvas(recorder);
+
+    final paint0Fill = Paint()
+      ..isAntiAlias = true
+      ..style = PaintingStyle.fill;
+    paint0Fill.color = const Color(0xff000000);
+    paint0Fill.colorFilter = _colorFilter;
+    paint0Fill.blendMode = BlendMode.srcOver;
+
+    final path_0 = Path()
+      ..moveTo(3, 2)
+      ..cubicTo(3.5523, 2, 4, 2.4477, 4, 3)
+      ..lineTo(4, 20)
+      ..lineTo(21, 20)
+      ..cubicTo(21.507, 20.0001, 21.9337, 20.3795, 21.993, 20.883)
+      ..lineTo(22, 21)
+      ..cubicTo(22, 21.5523, 21.5523, 22, 21, 22)
+      ..lineTo(3, 22)
+      ..cubicTo(2.4477, 22, 2, 21.5523, 2, 21)
+      ..lineTo(2, 3)
+      ..cubicTo(2, 2.4477, 2.4477, 2, 3, 2)
+      ..moveTo(21.97, 2.757)
+      ..cubicTo(22.1042, 3.2927, 21.7787, 3.8358, 21.243, 3.97)
+      ..lineTo(15.987, 5.284)
+      ..cubicTo(15.9365, 5.8124, 15.7467, 6.3179, 15.437, 6.749)
+      ..lineTo(17.205, 9.107)
+      ..cubicTo(18.1075, 8.8602, 19.0735, 9.0482, 19.8176, 9.6155)
+      ..cubicTo(20.5617, 10.1827, 20.9989, 11.0644, 21, 12)
+      ..cubicTo(21, 13.3025, 20.1596, 14.4562, 18.9198, 14.8555)
+      ..cubicTo(17.68, 15.2549, 16.3242, 14.8086, 15.564, 13.751)
+      ..lineTo(11.994, 15.179)
+      ..cubicTo(11.8919, 16.7937, 10.5277, 18.0366, 8.9104, 17.9883)
+      ..cubicTo(7.2932, 17.94, 6.0056, 16.618, 6, 15)
+      ..lineTo(6.005, 14.824)
+      ..cubicTo(6.0795, 13.5564, 6.9441, 12.473, 8.1636, 12.119)
+      ..cubicTo(9.3831, 11.7651, 10.6934, 12.2172, 11.435, 13.248)
+      ..lineTo(15.005, 11.82)
+      ..lineTo(15.02, 11.65)
+      ..cubicTo(15.08, 11.132, 15.273, 10.654, 15.562, 10.25)
+      ..lineTo(13.795, 7.893)
+      ..cubicTo(12.8925, 8.1398, 11.9265, 7.9518, 11.1824, 7.3845)
+      ..cubicTo(10.4383, 6.8173, 10.0011, 5.9356, 10, 5)
+      ..lineTo(10.005, 4.824)
+      ..cubicTo(10.0804, 3.5345, 10.9727, 2.4381, 12.2199, 2.1023)
+      ..cubicTo(13.4672, 1.7665, 14.7894, 2.2667, 15.502, 3.344)
+      ..lineTo(20.757, 2.03)
+      ..cubicTo(21.2927, 1.8958, 21.8358, 2.2213, 21.97, 2.757);
+
+    canvas.drawPath(path_0, paint0Fill);
+
+    _picture = recorder.endRecording();
+  }
+}

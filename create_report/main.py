@@ -180,32 +180,27 @@ def main():
         folder_name = folder.name
         print(f"Processing {folder_name}...")
         
-        # Paths to the timeline summary files
-        iconfont_file = folder / "iconfont.timeline_summary.json"
-        svg_file = folder / "svg.timeline_summary.json"
-        svg_vec_file = folder / "svg_vec.timeline_summary.json"
-        
-        # Check if all required files exist
-        required_files = [iconfont_file, svg_file, svg_vec_file]
-        if not all(f.exists() for f in required_files):
-            print(f"  Warning: Not all report files found, skipping {folder_name}")
-            for f in required_files:
-                if not f.exists():
-                    print(f"    Missing: {f}")
+        # Define potential data sources and their files
+        source_files = {
+            "Iconfont": folder / "iconfont.timeline_summary.json",
+            "Picture": folder / "picture.timeline_summary.json",
+            "Painter": folder / "painter.timeline_summary.json",
+            "RenderBox": folder / "renderbox.timeline_summary.json",
+        }
+
+        data_sources = {}
+        for label, file_path in source_files.items():
+            if file_path.exists():
+                try:
+                    data_sources[label] = read_timeline_summary(file_path)
+                except Exception as e:
+                    print(f"  Error reading {file_path}: {e}")
+
+        if not data_sources:
+            print(f"  Warning: No valid report files found in {folder_name}. Skipping.")
             continue
 
         try:
-            # Read the data
-            iconfont_data = read_timeline_summary(iconfont_file)
-            svg_data = read_timeline_summary(svg_file)
-            svg_vec_data = read_timeline_summary(svg_vec_file)
-            
-            data_sources = {
-                "Iconfont": iconfont_data,
-                "SVG": svg_data,
-                "SVG Vec": svg_vec_data,
-            }
-
             chart_definitions = [
                 {
                     "type": "stacked",

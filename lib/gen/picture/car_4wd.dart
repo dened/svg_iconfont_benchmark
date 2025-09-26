@@ -1,0 +1,181 @@
+// ignore_for_file: cascade_invocations, prefer_int_literals, unused_import
+
+import 'dart:math';
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+import 'package:flutter/widgets.dart';
+
+/// {@template Car4wd}
+/// Car4wd widget.
+/// {@endtemplate}
+class Car4wd extends LeafRenderObjectWidget {
+  /// {@macro Car4wd}
+  const Car4wd({super.key, this.width, this.height, this.colorFilter});
+
+  final double? width;
+  final double? height;
+  final ui.ColorFilter? colorFilter;
+
+  static const Size svgSize = Size(24, 24);
+
+  @override
+  RenderObject createRenderObject(BuildContext context) => Car4wdRenderObject()
+    ..width = width
+    ..height = height
+    ..colorFilter = colorFilter;
+
+  @override
+  void updateRenderObject(
+    BuildContext context,
+    Car4wdRenderObject renderObject,
+  ) {
+    renderObject
+      ..width = width
+      ..height = height
+      ..colorFilter = colorFilter;
+  }
+}
+
+class Car4wdRenderObject extends RenderBox {
+  Car4wdRenderObject();
+
+  final _painter = _Car4wdPainter();
+
+  ui.ColorFilter? _colorFilter;
+  double? _width;
+  double? _height;
+
+  set width(double? value) {
+    if (_width == value) {
+      return;
+    }
+    _width = value;
+    markNeedsLayout();
+  }
+
+  set height(double? value) {
+    if (_height == value) {
+      return;
+    }
+    _height = value;
+    markNeedsLayout();
+  }
+
+  set colorFilter(ui.ColorFilter? value) {
+    if (_colorFilter == value) {
+      return;
+    }
+    _colorFilter = value;
+    markNeedsPaint();
+  }
+
+  double _scale = 1.0;
+
+  @override
+  bool get isRepaintBoundary => false;
+
+  @override
+  bool get sizedByParent => false;
+
+  @override
+  Size computeDryLayout(BoxConstraints constraints) {
+    final desiredWidth = _width ?? Car4wd.svgSize.width;
+    final desiredHeight = _height ?? Car4wd.svgSize.height;
+    final desiredSize = Size(desiredWidth, desiredHeight);
+    return constraints.constrain(desiredSize);
+  }
+
+  @override
+  void performLayout() {
+    size = computeDryLayout(constraints);
+    if (Car4wd.svgSize.width == 0 || Car4wd.svgSize.height == 0) {
+      _scale = 1.0;
+      return;
+    }
+    _scale = min(
+      size.width / Car4wd.svgSize.width,
+      size.height / Car4wd.svgSize.height,
+    );
+  }
+
+  @override
+  bool hitTestSelf(Offset position) => true;
+
+  @override
+  void paint(PaintingContext context, Offset offset) {
+    final scale = _scale;
+    final canvas = context.canvas..save();
+
+    final dx = (size.width - Car4wd.svgSize.width * scale) / 2;
+    final dy = (size.height - Car4wd.svgSize.height * scale) / 2;
+
+    canvas
+      ..translate(offset.dx + dx, offset.dy + dy)
+      ..scale(scale, scale);
+
+    canvas.drawPicture(_painter.getPicture(_colorFilter));
+
+    canvas.restore();
+  }
+}
+
+class _Car4wdPainter {
+  ui.Picture? _picture;
+  ui.ColorFilter? _colorFilter;
+
+  ui.Picture getPicture(ui.ColorFilter? newColorFilter) {
+    if (_picture == null || _colorFilter != newColorFilter) {
+      _colorFilter = newColorFilter;
+      _createPicture();
+    }
+    return _picture!;
+  }
+
+  void _createPicture() {
+    _picture?.dispose();
+    final recorder = ui.PictureRecorder();
+    final canvas = Canvas(recorder);
+
+    final paint0Fill = Paint()
+      ..isAntiAlias = true
+      ..style = PaintingStyle.fill;
+    paint0Fill.color = const Color(0xff000000);
+    paint0Fill.colorFilter = _colorFilter;
+    paint0Fill.blendMode = BlendMode.srcOver;
+
+    final path_0 = Path()
+      ..moveTo(17, 2)
+      ..cubicTo(18.6569, 2, 20, 3.3431, 20, 5)
+      ..lineTo(20, 7)
+      ..cubicTo(20, 8.6569, 18.6569, 10, 17, 10)
+      ..cubicTo(15.3431, 10, 14, 8.6569, 14, 7)
+      ..lineTo(13, 7)
+      ..lineTo(13, 17)
+      ..lineTo(14, 17)
+      ..cubicTo(14, 15.3431, 15.3431, 14, 17, 14)
+      ..cubicTo(18.6569, 14, 20, 15.3431, 20, 17)
+      ..lineTo(20, 19)
+      ..cubicTo(20, 20.6569, 18.6569, 22, 17, 22)
+      ..cubicTo(15.3431, 22, 14, 20.6569, 14, 19)
+      ..lineTo(10, 19)
+      ..cubicTo(10, 20.6569, 8.6569, 22, 7, 22)
+      ..cubicTo(5.3431, 22, 4, 20.6569, 4, 19)
+      ..lineTo(4, 17)
+      ..cubicTo(4, 15.3431, 5.3431, 14, 7, 14)
+      ..cubicTo(8.6569, 14, 10, 15.3431, 10, 17)
+      ..lineTo(11, 17)
+      ..lineTo(11, 7)
+      ..lineTo(10, 7)
+      ..cubicTo(10, 8.6569, 8.6569, 10, 7, 10)
+      ..cubicTo(5.3431, 10, 4, 8.6569, 4, 7)
+      ..lineTo(4, 5)
+      ..cubicTo(4, 3.3431, 5.3431, 2, 7, 2)
+      ..cubicTo(8.6569, 2, 10, 3.3431, 10, 5)
+      ..lineTo(14, 5)
+      ..cubicTo(14, 3.3431, 15.3431, 2, 17, 2);
+
+    canvas.drawPath(path_0, paint0Fill);
+
+    _picture = recorder.endRecording();
+  }
+}

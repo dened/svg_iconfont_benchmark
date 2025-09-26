@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "svg_iconfont_benchmark",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Generate SVG",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/generate_svg.dart",
+            "args": [
+                "--complexity", "9",
+                "--output", "assets/icons_sintetic/",
+                "--seed", "123",
+                "--width", "100",
+                "--height", "100"
+            ]
+        }
+
+    ]
+}

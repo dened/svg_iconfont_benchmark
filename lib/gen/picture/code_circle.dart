@@ -1,0 +1,182 @@
+// ignore_for_file: cascade_invocations, prefer_int_literals, unused_import
+
+import 'dart:math';
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+import 'package:flutter/widgets.dart';
+
+/// {@template CodeCircle}
+/// CodeCircle widget.
+/// {@endtemplate}
+class CodeCircle extends LeafRenderObjectWidget {
+  /// {@macro CodeCircle}
+  const CodeCircle({super.key, this.width, this.height, this.colorFilter});
+
+  final double? width;
+  final double? height;
+  final ui.ColorFilter? colorFilter;
+
+  static const Size svgSize = Size(24, 24);
+
+  @override
+  RenderObject createRenderObject(BuildContext context) =>
+      CodeCircleRenderObject()
+        ..width = width
+        ..height = height
+        ..colorFilter = colorFilter;
+
+  @override
+  void updateRenderObject(
+    BuildContext context,
+    CodeCircleRenderObject renderObject,
+  ) {
+    renderObject
+      ..width = width
+      ..height = height
+      ..colorFilter = colorFilter;
+  }
+}
+
+class CodeCircleRenderObject extends RenderBox {
+  CodeCircleRenderObject();
+
+  final _painter = _CodeCirclePainter();
+
+  ui.ColorFilter? _colorFilter;
+  double? _width;
+  double? _height;
+
+  set width(double? value) {
+    if (_width == value) {
+      return;
+    }
+    _width = value;
+    markNeedsLayout();
+  }
+
+  set height(double? value) {
+    if (_height == value) {
+      return;
+    }
+    _height = value;
+    markNeedsLayout();
+  }
+
+  set colorFilter(ui.ColorFilter? value) {
+    if (_colorFilter == value) {
+      return;
+    }
+    _colorFilter = value;
+    markNeedsPaint();
+  }
+
+  double _scale = 1.0;
+
+  @override
+  bool get isRepaintBoundary => false;
+
+  @override
+  bool get sizedByParent => false;
+
+  @override
+  Size computeDryLayout(BoxConstraints constraints) {
+    final desiredWidth = _width ?? CodeCircle.svgSize.width;
+    final desiredHeight = _height ?? CodeCircle.svgSize.height;
+    final desiredSize = Size(desiredWidth, desiredHeight);
+    return constraints.constrain(desiredSize);
+  }
+
+  @override
+  void performLayout() {
+    size = computeDryLayout(constraints);
+    if (CodeCircle.svgSize.width == 0 || CodeCircle.svgSize.height == 0) {
+      _scale = 1.0;
+      return;
+    }
+    _scale = min(
+      size.width / CodeCircle.svgSize.width,
+      size.height / CodeCircle.svgSize.height,
+    );
+  }
+
+  @override
+  bool hitTestSelf(Offset position) => true;
+
+  @override
+  void paint(PaintingContext context, Offset offset) {
+    final scale = _scale;
+    final canvas = context.canvas..save();
+
+    final dx = (size.width - CodeCircle.svgSize.width * scale) / 2;
+    final dy = (size.height - CodeCircle.svgSize.height * scale) / 2;
+
+    canvas
+      ..translate(offset.dx + dx, offset.dy + dy)
+      ..scale(scale, scale);
+
+    canvas.drawPicture(_painter.getPicture(_colorFilter));
+
+    canvas.restore();
+  }
+}
+
+class _CodeCirclePainter {
+  ui.Picture? _picture;
+  ui.ColorFilter? _colorFilter;
+
+  ui.Picture getPicture(ui.ColorFilter? newColorFilter) {
+    if (_picture == null || _colorFilter != newColorFilter) {
+      _colorFilter = newColorFilter;
+      _createPicture();
+    }
+    return _picture!;
+  }
+
+  void _createPicture() {
+    _picture?.dispose();
+    final recorder = ui.PictureRecorder();
+    final canvas = Canvas(recorder);
+
+    final paint0Fill = Paint()
+      ..isAntiAlias = true
+      ..style = PaintingStyle.fill;
+    paint0Fill.color = const Color(0xff000000);
+    paint0Fill.colorFilter = _colorFilter;
+    paint0Fill.blendMode = BlendMode.srcOver;
+
+    final path_0 = Path()
+      ..moveTo(17, 3.34)
+      ..cubicTo(21.2028, 5.7665, 23.0567, 10.8603, 21.3969, 15.4205)
+      ..cubicTo(19.737, 19.9808, 15.0426, 22.6911, 10.2634, 21.8483)
+      ..cubicTo(5.4841, 21.0055, 1.9999, 16.853, 2, 12)
+      ..lineTo(2.005, 11.676)
+      ..cubicTo(2.1189, 8.163, 4.0688, 4.9677, 7.1409, 3.2599)
+      ..cubicTo(10.213, 1.5521, 13.9561, 1.5825, 17, 3.34)
+      ..moveTo(10.707, 9.293)
+      ..cubicTo(10.3165, 8.9026, 9.6835, 8.9026, 9.293, 9.293)
+      ..lineTo(7.293, 11.293)
+      ..cubicTo(6.9026, 11.6835, 6.9026, 12.3165, 7.293, 12.707)
+      ..lineTo(9.293, 14.707)
+      ..cubicTo(9.6835, 15.0974, 10.3165, 15.0974, 10.707, 14.707)
+      ..lineTo(10.79, 14.613)
+      ..cubicTo(11.0988, 14.2149, 11.0632, 13.6493, 10.707, 13.293)
+      ..lineTo(9.415, 12)
+      ..lineTo(10.707, 10.707)
+      ..cubicTo(11.0974, 10.3165, 11.0974, 9.6835, 10.707, 9.293)
+      ..moveTo(14.707, 9.293)
+      ..cubicTo(14.3165, 8.9026, 13.6835, 8.9026, 13.293, 9.293)
+      ..lineTo(13.21, 9.387)
+      ..cubicTo(12.9012, 9.7851, 12.9368, 10.3507, 13.293, 10.707)
+      ..lineTo(14.585, 12)
+      ..lineTo(13.293, 13.293)
+      ..cubicTo(12.914, 13.6854, 12.9194, 14.3091, 13.3052, 14.6948)
+      ..cubicTo(13.6909, 15.0806, 14.3146, 15.086, 14.707, 14.707)
+      ..lineTo(16.707, 12.707)
+      ..cubicTo(17.0974, 12.3165, 17.0974, 11.6835, 16.707, 11.293)
+      ..close();
+
+    canvas.drawPath(path_0, paint0Fill);
+
+    _picture = recorder.endRecording();
+  }
+}

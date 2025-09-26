@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:svg_benchmark/custom_painters_screen.dart';
 import 'package:svg_benchmark/icon_font_display_screen.dart';
 import 'package:svg_benchmark/svg_screen.dart';
 import 'package:svg_benchmark/svg_vec_screen.dart';
+import 'package:svg_benchmark/picture_screen.dart';
+import 'package:svg_benchmark/render_box_screen.dart';
+import 'package:svg_benchmark/widgets_bench/custom_painters_screen.dart';
+import 'package:svg_benchmark/widgets_bench/picture_screen.dart';
+import 'package:svg_benchmark/widgets_bench/render_box_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -131,6 +137,77 @@ class _BenchmarkHomePageState extends State<BenchmarkHomePage> {
               ),
             ),
             child: const Text('Test Icon Font'),
+          ),
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              PictureScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Test Widgets'),
+          ),
+
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              CustomPaintersScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Test Custom painter'),
+          ),
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              RenderBoxScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Test Render box'),
+          ),
+
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              SinteticPictureScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Sintetic picture'),
+          ),
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              SinteticCustomPaintersScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Sintetic custom painter'),
+          ),
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              SinteticRenderBoxScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Sintetic render box'),
           ),
         ],
       ),

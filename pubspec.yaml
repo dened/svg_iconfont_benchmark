@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  args: ^2.7.0 
   flutter_svg: ^2.2.1
   vector_graphics: ^1.1.19
   path: ^1.9.1 
@@ -28,6 +29,7 @@ flutter:
     - assets/icons/
     - assets/iconfont/
     - assets/icons_vec/
+    - assets/icons_sintetic/
 
   fonts:
     - family: Symbols

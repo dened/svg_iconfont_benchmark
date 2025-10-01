@@ -182,7 +182,7 @@ def main():
         
         # Define potential data sources and their files
         source_files = {
-            "Iconfont": folder / "iconfont.timeline_summary.json",
+            # "Iconfont": folder / "iconfont.timeline_summary.json",
             "Picture": folder / "picture.timeline_summary.json",
             "Painter": folder / "painter.timeline_summary.json",
             "RenderBox": folder / "renderbox.timeline_summary.json",

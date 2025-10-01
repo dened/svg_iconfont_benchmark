@@ -8,6 +8,7 @@ import 'package:svg_benchmark/render_box_screen.dart';
 import 'package:svg_benchmark/widgets_bench/custom_painters_screen.dart';
 import 'package:svg_benchmark/widgets_bench/picture_screen.dart';
 import 'package:svg_benchmark/widgets_bench/render_box_screen.dart';
+import 'package:svg_benchmark/widgets_bench/svg_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -175,7 +176,7 @@ class _BenchmarkHomePageState extends State<BenchmarkHomePage> {
             ),
             child: const Text('Test Render box'),
           ),
-
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () => _navigateTo(
               context,
@@ -187,6 +188,7 @@ class _BenchmarkHomePageState extends State<BenchmarkHomePage> {
             ),
             child: const Text('Sintetic picture'),
           ),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () => _navigateTo(
               context,
@@ -198,6 +200,7 @@ class _BenchmarkHomePageState extends State<BenchmarkHomePage> {
             ),
             child: const Text('Sintetic custom painter'),
           ),
+          const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () => _navigateTo(
               context,
@@ -209,6 +212,19 @@ class _BenchmarkHomePageState extends State<BenchmarkHomePage> {
             ),
             child: const Text('Sintetic render box'),
           ),
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () => _navigateTo(
+              context,
+              SinteticSvgScreen(
+                itemCount: _itemCount,
+                crossAxisCount: _crossAxisCount,
+                changeColor: _changeColor,
+              ),
+            ),
+            child: const Text('Sintetic SVG'),
+          ),
+          const SizedBox(height: 20),
         ],
       ),
     );

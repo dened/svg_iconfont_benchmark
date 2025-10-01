@@ -7,6 +7,9 @@ import 'package:svg_benchmark/svg_screen.dart';
 import 'package:svg_benchmark/svg_vec_screen.dart';
 import 'package:svg_benchmark/picture_screen.dart';
 import 'package:svg_benchmark/render_box_screen.dart';
+import 'package:svg_benchmark/widgets_bench/custom_painters_screen.dart';
+import 'package:svg_benchmark/widgets_bench/picture_screen.dart';
+import 'package:svg_benchmark/widgets_bench/render_box_screen.dart';
 
 // Function to run a performance test with scrolling.
 void _runPerfTestWithScrolling(
@@ -41,38 +44,58 @@ void _runPerfTestWithScrolling(
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-  const itemCounts = [500, 2000]; 
+  const itemCounts = [2000]; 
 
-  final testCases = [
+  // final testCases = [
+  //   (
+  //     name: 'SVG',
+  //     widgetBuilder: (count) => SvgScreen(itemCount: count, changeColor: false,),
+  //     reportKeyPrefix: 'svg',
+  //   ),
+  //   (
+  //     name: 'SVG Vec',
+  //     widgetBuilder: (count) => SvgVecScreen(itemCount: count, changeColor: false,),
+  //     reportKeyPrefix: 'svg_vec',
+  //   ),
+  //   (
+  //     name: 'IconFont',
+  //     widgetBuilder: (count) => IconFontScreen(itemCount: count, changeColor: false,),
+  //     reportKeyPrefix: 'iconfont',
+  //   ),
+  //   (
+  //     name: 'Picture',
+  //     widgetBuilder: (count) => PictureScreen(itemCount: count, changeColor: false),
+  //     reportKeyPrefix: 'picture',
+  //   ),
+
+  //       (
+  //     name: 'Painter',
+  //     widgetBuilder: (count) => CustomPaintersScreen(itemCount: count, changeColor: false),
+  //     reportKeyPrefix: 'painter',
+  //   ),
+  //       (
+  //     name: 'RenderBox',
+  //     widgetBuilder: (count) => RenderBoxScreen(itemCount: count, changeColor: false),
+  //     reportKeyPrefix: 'renderbox',
+  //   ),
+  // ];
+
+    final testCases = [
+
     (
-      name: 'SVG',
-      widgetBuilder: (count) => SvgScreen(itemCount: count, changeColor: false,),
-      reportKeyPrefix: 'svg',
-    ),
-    (
-      name: 'SVG Vec',
-      widgetBuilder: (count) => SvgVecScreen(itemCount: count, changeColor: false,),
-      reportKeyPrefix: 'svg_vec',
-    ),
-    (
-      name: 'IconFont',
-      widgetBuilder: (count) => IconFontScreen(itemCount: count, changeColor: false,),
-      reportKeyPrefix: 'iconfont',
-    ),
-    (
-      name: 'Picture',
-      widgetBuilder: (count) => PictureScreen(itemCount: count, changeColor: false),
-      reportKeyPrefix: 'picture',
+      name: 'CustomPainter',
+      widgetBuilder: (count) => SinteticCustomPaintersScreen(itemCount: count, changeColor: false),
+      reportKeyPrefix: 'painter',
     ),
 
         (
-      name: 'Painter',
-      widgetBuilder: (count) => CustomPaintersScreen(itemCount: count, changeColor: false),
-      reportKeyPrefix: 'painter',
+      name: 'Picture',
+      widgetBuilder: (count) => SinteticPictureScreen(itemCount: count, changeColor: false),
+      reportKeyPrefix: 'picture',
     ),
         (
       name: 'RenderBox',
-      widgetBuilder: (count) => RenderBoxScreen(itemCount: count, changeColor: false),
+      widgetBuilder: (count) => SinteticRenderBoxScreen(itemCount: count, changeColor: false),
       reportKeyPrefix: 'renderbox',
     ),
   ];

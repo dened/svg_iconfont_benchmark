@@ -14,7 +14,7 @@ class SinteticRenderBoxScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return BenchmarkScreen<IconBuilder>(
       title: 'Renderbox Benchmark',
-      items: allWidgets,
+      items: singleWidgets,
       itemCount: itemCount,
       crossAxisCount: crossAxisCount,
       changeColor: changeColor,

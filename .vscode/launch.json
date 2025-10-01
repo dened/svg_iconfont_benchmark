@@ -16,7 +16,7 @@
             "type": "dart",
             "program": "bin/generate_svg.dart",
             "args": [
-                "--complexity", "9",
+                "--complexity", "1",
                 "--output", "assets/icons_sintetic/",
                 "--seed", "123",
                 "--width", "100",

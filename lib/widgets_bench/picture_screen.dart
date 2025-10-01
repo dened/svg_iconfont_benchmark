@@ -14,7 +14,7 @@ class SinteticPictureScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return BenchmarkScreen<IconBuilder>(
       title: 'Widgets Benchmark',
-      items: allWidgets,
+      items: singleWidgets,
       itemCount: itemCount,
       crossAxisCount: crossAxisCount,
       changeColor: changeColor,

@@ -2029,6 +2029,2014 @@ class $AssetsIconsGen {
   ];
 }
 
+class $AssetsIconsSinteticGen {
+  const $AssetsIconsSinteticGen();
+
+  /// File path: assets/icons_sintetic/gen_0.svg
+  String get gen0 => 'assets/icons_sintetic/gen_0.svg';
+
+  /// File path: assets/icons_sintetic/gen_1.svg
+  String get gen1 => 'assets/icons_sintetic/gen_1.svg';
+
+  /// File path: assets/icons_sintetic/gen_10.svg
+  String get gen10 => 'assets/icons_sintetic/gen_10.svg';
+
+  /// File path: assets/icons_sintetic/gen_100.svg
+  String get gen100 => 'assets/icons_sintetic/gen_100.svg';
+
+  /// File path: assets/icons_sintetic/gen_101.svg
+  String get gen101 => 'assets/icons_sintetic/gen_101.svg';
+
+  /// File path: assets/icons_sintetic/gen_102.svg
+  String get gen102 => 'assets/icons_sintetic/gen_102.svg';
+
+  /// File path: assets/icons_sintetic/gen_103.svg
+  String get gen103 => 'assets/icons_sintetic/gen_103.svg';
+
+  /// File path: assets/icons_sintetic/gen_104.svg
+  String get gen104 => 'assets/icons_sintetic/gen_104.svg';
+
+  /// File path: assets/icons_sintetic/gen_105.svg
+  String get gen105 => 'assets/icons_sintetic/gen_105.svg';
+
+  /// File path: assets/icons_sintetic/gen_106.svg
+  String get gen106 => 'assets/icons_sintetic/gen_106.svg';
+
+  /// File path: assets/icons_sintetic/gen_107.svg
+  String get gen107 => 'assets/icons_sintetic/gen_107.svg';
+
+  /// File path: assets/icons_sintetic/gen_108.svg
+  String get gen108 => 'assets/icons_sintetic/gen_108.svg';
+
+  /// File path: assets/icons_sintetic/gen_109.svg
+  String get gen109 => 'assets/icons_sintetic/gen_109.svg';
+
+  /// File path: assets/icons_sintetic/gen_11.svg
+  String get gen11 => 'assets/icons_sintetic/gen_11.svg';
+
+  /// File path: assets/icons_sintetic/gen_110.svg
+  String get gen110 => 'assets/icons_sintetic/gen_110.svg';
+
+  /// File path: assets/icons_sintetic/gen_111.svg
+  String get gen111 => 'assets/icons_sintetic/gen_111.svg';
+
+  /// File path: assets/icons_sintetic/gen_112.svg
+  String get gen112 => 'assets/icons_sintetic/gen_112.svg';
+
+  /// File path: assets/icons_sintetic/gen_113.svg
+  String get gen113 => 'assets/icons_sintetic/gen_113.svg';
+
+  /// File path: assets/icons_sintetic/gen_114.svg
+  String get gen114 => 'assets/icons_sintetic/gen_114.svg';
+
+  /// File path: assets/icons_sintetic/gen_115.svg
+  String get gen115 => 'assets/icons_sintetic/gen_115.svg';
+
+  /// File path: assets/icons_sintetic/gen_116.svg
+  String get gen116 => 'assets/icons_sintetic/gen_116.svg';
+
+  /// File path: assets/icons_sintetic/gen_117.svg
+  String get gen117 => 'assets/icons_sintetic/gen_117.svg';
+
+  /// File path: assets/icons_sintetic/gen_118.svg
+  String get gen118 => 'assets/icons_sintetic/gen_118.svg';
+
+  /// File path: assets/icons_sintetic/gen_119.svg
+  String get gen119 => 'assets/icons_sintetic/gen_119.svg';
+
+  /// File path: assets/icons_sintetic/gen_12.svg
+  String get gen12 => 'assets/icons_sintetic/gen_12.svg';
+
+  /// File path: assets/icons_sintetic/gen_120.svg
+  String get gen120 => 'assets/icons_sintetic/gen_120.svg';
+
+  /// File path: assets/icons_sintetic/gen_121.svg
+  String get gen121 => 'assets/icons_sintetic/gen_121.svg';
+
+  /// File path: assets/icons_sintetic/gen_122.svg
+  String get gen122 => 'assets/icons_sintetic/gen_122.svg';
+
+  /// File path: assets/icons_sintetic/gen_123.svg
+  String get gen123 => 'assets/icons_sintetic/gen_123.svg';
+
+  /// File path: assets/icons_sintetic/gen_124.svg
+  String get gen124 => 'assets/icons_sintetic/gen_124.svg';
+
+  /// File path: assets/icons_sintetic/gen_125.svg
+  String get gen125 => 'assets/icons_sintetic/gen_125.svg';
+
+  /// File path: assets/icons_sintetic/gen_126.svg
+  String get gen126 => 'assets/icons_sintetic/gen_126.svg';
+
+  /// File path: assets/icons_sintetic/gen_127.svg
+  String get gen127 => 'assets/icons_sintetic/gen_127.svg';
+
+  /// File path: assets/icons_sintetic/gen_128.svg
+  String get gen128 => 'assets/icons_sintetic/gen_128.svg';
+
+  /// File path: assets/icons_sintetic/gen_129.svg
+  String get gen129 => 'assets/icons_sintetic/gen_129.svg';
+
+  /// File path: assets/icons_sintetic/gen_13.svg
+  String get gen13 => 'assets/icons_sintetic/gen_13.svg';
+
+  /// File path: assets/icons_sintetic/gen_130.svg
+  String get gen130 => 'assets/icons_sintetic/gen_130.svg';
+
+  /// File path: assets/icons_sintetic/gen_131.svg
+  String get gen131 => 'assets/icons_sintetic/gen_131.svg';
+
+  /// File path: assets/icons_sintetic/gen_132.svg
+  String get gen132 => 'assets/icons_sintetic/gen_132.svg';
+
+  /// File path: assets/icons_sintetic/gen_133.svg
+  String get gen133 => 'assets/icons_sintetic/gen_133.svg';
+
+  /// File path: assets/icons_sintetic/gen_134.svg
+  String get gen134 => 'assets/icons_sintetic/gen_134.svg';
+
+  /// File path: assets/icons_sintetic/gen_135.svg
+  String get gen135 => 'assets/icons_sintetic/gen_135.svg';
+
+  /// File path: assets/icons_sintetic/gen_136.svg
+  String get gen136 => 'assets/icons_sintetic/gen_136.svg';
+
+  /// File path: assets/icons_sintetic/gen_137.svg
+  String get gen137 => 'assets/icons_sintetic/gen_137.svg';
+
+  /// File path: assets/icons_sintetic/gen_138.svg
+  String get gen138 => 'assets/icons_sintetic/gen_138.svg';
+
+  /// File path: assets/icons_sintetic/gen_139.svg
+  String get gen139 => 'assets/icons_sintetic/gen_139.svg';
+
+  /// File path: assets/icons_sintetic/gen_14.svg
+  String get gen14 => 'assets/icons_sintetic/gen_14.svg';
+
+  /// File path: assets/icons_sintetic/gen_140.svg
+  String get gen140 => 'assets/icons_sintetic/gen_140.svg';
+
+  /// File path: assets/icons_sintetic/gen_141.svg
+  String get gen141 => 'assets/icons_sintetic/gen_141.svg';
+
+  /// File path: assets/icons_sintetic/gen_142.svg
+  String get gen142 => 'assets/icons_sintetic/gen_142.svg';
+
+  /// File path: assets/icons_sintetic/gen_143.svg
+  String get gen143 => 'assets/icons_sintetic/gen_143.svg';
+
+  /// File path: assets/icons_sintetic/gen_144.svg
+  String get gen144 => 'assets/icons_sintetic/gen_144.svg';
+
+  /// File path: assets/icons_sintetic/gen_145.svg
+  String get gen145 => 'assets/icons_sintetic/gen_145.svg';
+
+  /// File path: assets/icons_sintetic/gen_146.svg
+  String get gen146 => 'assets/icons_sintetic/gen_146.svg';
+
+  /// File path: assets/icons_sintetic/gen_147.svg
+  String get gen147 => 'assets/icons_sintetic/gen_147.svg';
+
+  /// File path: assets/icons_sintetic/gen_148.svg
+  String get gen148 => 'assets/icons_sintetic/gen_148.svg';
+
+  /// File path: assets/icons_sintetic/gen_149.svg
+  String get gen149 => 'assets/icons_sintetic/gen_149.svg';
+
+  /// File path: assets/icons_sintetic/gen_15.svg
+  String get gen15 => 'assets/icons_sintetic/gen_15.svg';
+
+  /// File path: assets/icons_sintetic/gen_150.svg
+  String get gen150 => 'assets/icons_sintetic/gen_150.svg';
+
+  /// File path: assets/icons_sintetic/gen_151.svg
+  String get gen151 => 'assets/icons_sintetic/gen_151.svg';
+
+  /// File path: assets/icons_sintetic/gen_152.svg
+  String get gen152 => 'assets/icons_sintetic/gen_152.svg';
+
+  /// File path: assets/icons_sintetic/gen_153.svg
+  String get gen153 => 'assets/icons_sintetic/gen_153.svg';
+
+  /// File path: assets/icons_sintetic/gen_154.svg
+  String get gen154 => 'assets/icons_sintetic/gen_154.svg';
+
+  /// File path: assets/icons_sintetic/gen_155.svg
+  String get gen155 => 'assets/icons_sintetic/gen_155.svg';
+
+  /// File path: assets/icons_sintetic/gen_156.svg
+  String get gen156 => 'assets/icons_sintetic/gen_156.svg';
+
+  /// File path: assets/icons_sintetic/gen_157.svg
+  String get gen157 => 'assets/icons_sintetic/gen_157.svg';
+
+  /// File path: assets/icons_sintetic/gen_158.svg
+  String get gen158 => 'assets/icons_sintetic/gen_158.svg';
+
+  /// File path: assets/icons_sintetic/gen_159.svg
+  String get gen159 => 'assets/icons_sintetic/gen_159.svg';
+
+  /// File path: assets/icons_sintetic/gen_16.svg
+  String get gen16 => 'assets/icons_sintetic/gen_16.svg';
+
+  /// File path: assets/icons_sintetic/gen_160.svg
+  String get gen160 => 'assets/icons_sintetic/gen_160.svg';
+
+  /// File path: assets/icons_sintetic/gen_161.svg
+  String get gen161 => 'assets/icons_sintetic/gen_161.svg';
+
+  /// File path: assets/icons_sintetic/gen_162.svg
+  String get gen162 => 'assets/icons_sintetic/gen_162.svg';
+
+  /// File path: assets/icons_sintetic/gen_163.svg
+  String get gen163 => 'assets/icons_sintetic/gen_163.svg';
+
+  /// File path: assets/icons_sintetic/gen_164.svg
+  String get gen164 => 'assets/icons_sintetic/gen_164.svg';
+
+  /// File path: assets/icons_sintetic/gen_165.svg
+  String get gen165 => 'assets/icons_sintetic/gen_165.svg';
+
+  /// File path: assets/icons_sintetic/gen_166.svg
+  String get gen166 => 'assets/icons_sintetic/gen_166.svg';
+
+  /// File path: assets/icons_sintetic/gen_167.svg
+  String get gen167 => 'assets/icons_sintetic/gen_167.svg';
+
+  /// File path: assets/icons_sintetic/gen_168.svg
+  String get gen168 => 'assets/icons_sintetic/gen_168.svg';
+
+  /// File path: assets/icons_sintetic/gen_169.svg
+  String get gen169 => 'assets/icons_sintetic/gen_169.svg';
+
+  /// File path: assets/icons_sintetic/gen_17.svg
+  String get gen17 => 'assets/icons_sintetic/gen_17.svg';
+
+  /// File path: assets/icons_sintetic/gen_170.svg
+  String get gen170 => 'assets/icons_sintetic/gen_170.svg';
+
+  /// File path: assets/icons_sintetic/gen_171.svg
+  String get gen171 => 'assets/icons_sintetic/gen_171.svg';
+
+  /// File path: assets/icons_sintetic/gen_172.svg
+  String get gen172 => 'assets/icons_sintetic/gen_172.svg';
+
+  /// File path: assets/icons_sintetic/gen_173.svg
+  String get gen173 => 'assets/icons_sintetic/gen_173.svg';
+
+  /// File path: assets/icons_sintetic/gen_174.svg
+  String get gen174 => 'assets/icons_sintetic/gen_174.svg';
+
+  /// File path: assets/icons_sintetic/gen_175.svg
+  String get gen175 => 'assets/icons_sintetic/gen_175.svg';
+
+  /// File path: assets/icons_sintetic/gen_176.svg
+  String get gen176 => 'assets/icons_sintetic/gen_176.svg';
+
+  /// File path: assets/icons_sintetic/gen_177.svg
+  String get gen177 => 'assets/icons_sintetic/gen_177.svg';
+
+  /// File path: assets/icons_sintetic/gen_178.svg
+  String get gen178 => 'assets/icons_sintetic/gen_178.svg';
+
+  /// File path: assets/icons_sintetic/gen_179.svg
+  String get gen179 => 'assets/icons_sintetic/gen_179.svg';
+
+  /// File path: assets/icons_sintetic/gen_18.svg
+  String get gen18 => 'assets/icons_sintetic/gen_18.svg';
+
+  /// File path: assets/icons_sintetic/gen_180.svg
+  String get gen180 => 'assets/icons_sintetic/gen_180.svg';
+
+  /// File path: assets/icons_sintetic/gen_181.svg
+  String get gen181 => 'assets/icons_sintetic/gen_181.svg';
+
+  /// File path: assets/icons_sintetic/gen_182.svg
+  String get gen182 => 'assets/icons_sintetic/gen_182.svg';
+
+  /// File path: assets/icons_sintetic/gen_183.svg
+  String get gen183 => 'assets/icons_sintetic/gen_183.svg';
+
+  /// File path: assets/icons_sintetic/gen_184.svg
+  String get gen184 => 'assets/icons_sintetic/gen_184.svg';
+
+  /// File path: assets/icons_sintetic/gen_185.svg
+  String get gen185 => 'assets/icons_sintetic/gen_185.svg';
+
+  /// File path: assets/icons_sintetic/gen_186.svg
+  String get gen186 => 'assets/icons_sintetic/gen_186.svg';
+
+  /// File path: assets/icons_sintetic/gen_187.svg
+  String get gen187 => 'assets/icons_sintetic/gen_187.svg';
+
+  /// File path: assets/icons_sintetic/gen_188.svg
+  String get gen188 => 'assets/icons_sintetic/gen_188.svg';
+
+  /// File path: assets/icons_sintetic/gen_189.svg
+  String get gen189 => 'assets/icons_sintetic/gen_189.svg';
+
+  /// File path: assets/icons_sintetic/gen_19.svg
+  String get gen19 => 'assets/icons_sintetic/gen_19.svg';
+
+  /// File path: assets/icons_sintetic/gen_190.svg
+  String get gen190 => 'assets/icons_sintetic/gen_190.svg';
+
+  /// File path: assets/icons_sintetic/gen_191.svg
+  String get gen191 => 'assets/icons_sintetic/gen_191.svg';
+
+  /// File path: assets/icons_sintetic/gen_192.svg
+  String get gen192 => 'assets/icons_sintetic/gen_192.svg';
+
+  /// File path: assets/icons_sintetic/gen_193.svg
+  String get gen193 => 'assets/icons_sintetic/gen_193.svg';
+
+  /// File path: assets/icons_sintetic/gen_194.svg
+  String get gen194 => 'assets/icons_sintetic/gen_194.svg';
+
+  /// File path: assets/icons_sintetic/gen_195.svg
+  String get gen195 => 'assets/icons_sintetic/gen_195.svg';
+
+  /// File path: assets/icons_sintetic/gen_196.svg
+  String get gen196 => 'assets/icons_sintetic/gen_196.svg';
+
+  /// File path: assets/icons_sintetic/gen_197.svg
+  String get gen197 => 'assets/icons_sintetic/gen_197.svg';
+
+  /// File path: assets/icons_sintetic/gen_198.svg
+  String get gen198 => 'assets/icons_sintetic/gen_198.svg';
+
+  /// File path: assets/icons_sintetic/gen_199.svg
+  String get gen199 => 'assets/icons_sintetic/gen_199.svg';
+
+  /// File path: assets/icons_sintetic/gen_2.svg
+  String get gen2 => 'assets/icons_sintetic/gen_2.svg';
+
+  /// File path: assets/icons_sintetic/gen_20.svg
+  String get gen20 => 'assets/icons_sintetic/gen_20.svg';
+
+  /// File path: assets/icons_sintetic/gen_200.svg
+  String get gen200 => 'assets/icons_sintetic/gen_200.svg';
+
+  /// File path: assets/icons_sintetic/gen_201.svg
+  String get gen201 => 'assets/icons_sintetic/gen_201.svg';
+
+  /// File path: assets/icons_sintetic/gen_202.svg
+  String get gen202 => 'assets/icons_sintetic/gen_202.svg';
+
+  /// File path: assets/icons_sintetic/gen_203.svg
+  String get gen203 => 'assets/icons_sintetic/gen_203.svg';
+
+  /// File path: assets/icons_sintetic/gen_204.svg
+  String get gen204 => 'assets/icons_sintetic/gen_204.svg';
+
+  /// File path: assets/icons_sintetic/gen_205.svg
+  String get gen205 => 'assets/icons_sintetic/gen_205.svg';
+
+  /// File path: assets/icons_sintetic/gen_206.svg
+  String get gen206 => 'assets/icons_sintetic/gen_206.svg';
+
+  /// File path: assets/icons_sintetic/gen_207.svg
+  String get gen207 => 'assets/icons_sintetic/gen_207.svg';
+
+  /// File path: assets/icons_sintetic/gen_208.svg
+  String get gen208 => 'assets/icons_sintetic/gen_208.svg';
+
+  /// File path: assets/icons_sintetic/gen_209.svg
+  String get gen209 => 'assets/icons_sintetic/gen_209.svg';
+
+  /// File path: assets/icons_sintetic/gen_21.svg
+  String get gen21 => 'assets/icons_sintetic/gen_21.svg';
+
+  /// File path: assets/icons_sintetic/gen_210.svg
+  String get gen210 => 'assets/icons_sintetic/gen_210.svg';
+
+  /// File path: assets/icons_sintetic/gen_211.svg
+  String get gen211 => 'assets/icons_sintetic/gen_211.svg';
+
+  /// File path: assets/icons_sintetic/gen_212.svg
+  String get gen212 => 'assets/icons_sintetic/gen_212.svg';
+
+  /// File path: assets/icons_sintetic/gen_213.svg
+  String get gen213 => 'assets/icons_sintetic/gen_213.svg';
+
+  /// File path: assets/icons_sintetic/gen_214.svg
+  String get gen214 => 'assets/icons_sintetic/gen_214.svg';
+
+  /// File path: assets/icons_sintetic/gen_215.svg
+  String get gen215 => 'assets/icons_sintetic/gen_215.svg';
+
+  /// File path: assets/icons_sintetic/gen_216.svg
+  String get gen216 => 'assets/icons_sintetic/gen_216.svg';
+
+  /// File path: assets/icons_sintetic/gen_217.svg
+  String get gen217 => 'assets/icons_sintetic/gen_217.svg';
+
+  /// File path: assets/icons_sintetic/gen_218.svg
+  String get gen218 => 'assets/icons_sintetic/gen_218.svg';
+
+  /// File path: assets/icons_sintetic/gen_219.svg
+  String get gen219 => 'assets/icons_sintetic/gen_219.svg';
+
+  /// File path: assets/icons_sintetic/gen_22.svg
+  String get gen22 => 'assets/icons_sintetic/gen_22.svg';
+
+  /// File path: assets/icons_sintetic/gen_220.svg
+  String get gen220 => 'assets/icons_sintetic/gen_220.svg';
+
+  /// File path: assets/icons_sintetic/gen_221.svg
+  String get gen221 => 'assets/icons_sintetic/gen_221.svg';
+
+  /// File path: assets/icons_sintetic/gen_222.svg
+  String get gen222 => 'assets/icons_sintetic/gen_222.svg';
+
+  /// File path: assets/icons_sintetic/gen_223.svg
+  String get gen223 => 'assets/icons_sintetic/gen_223.svg';
+
+  /// File path: assets/icons_sintetic/gen_224.svg
+  String get gen224 => 'assets/icons_sintetic/gen_224.svg';
+
+  /// File path: assets/icons_sintetic/gen_225.svg
+  String get gen225 => 'assets/icons_sintetic/gen_225.svg';
+
+  /// File path: assets/icons_sintetic/gen_226.svg
+  String get gen226 => 'assets/icons_sintetic/gen_226.svg';
+
+  /// File path: assets/icons_sintetic/gen_227.svg
+  String get gen227 => 'assets/icons_sintetic/gen_227.svg';
+
+  /// File path: assets/icons_sintetic/gen_228.svg
+  String get gen228 => 'assets/icons_sintetic/gen_228.svg';
+
+  /// File path: assets/icons_sintetic/gen_229.svg
+  String get gen229 => 'assets/icons_sintetic/gen_229.svg';
+
+  /// File path: assets/icons_sintetic/gen_23.svg
+  String get gen23 => 'assets/icons_sintetic/gen_23.svg';
+
+  /// File path: assets/icons_sintetic/gen_230.svg
+  String get gen230 => 'assets/icons_sintetic/gen_230.svg';
+
+  /// File path: assets/icons_sintetic/gen_231.svg
+  String get gen231 => 'assets/icons_sintetic/gen_231.svg';
+
+  /// File path: assets/icons_sintetic/gen_232.svg
+  String get gen232 => 'assets/icons_sintetic/gen_232.svg';
+
+  /// File path: assets/icons_sintetic/gen_233.svg
+  String get gen233 => 'assets/icons_sintetic/gen_233.svg';
+
+  /// File path: assets/icons_sintetic/gen_234.svg
+  String get gen234 => 'assets/icons_sintetic/gen_234.svg';
+
+  /// File path: assets/icons_sintetic/gen_235.svg
+  String get gen235 => 'assets/icons_sintetic/gen_235.svg';
+
+  /// File path: assets/icons_sintetic/gen_236.svg
+  String get gen236 => 'assets/icons_sintetic/gen_236.svg';
+
+  /// File path: assets/icons_sintetic/gen_237.svg
+  String get gen237 => 'assets/icons_sintetic/gen_237.svg';
+
+  /// File path: assets/icons_sintetic/gen_238.svg
+  String get gen238 => 'assets/icons_sintetic/gen_238.svg';
+
+  /// File path: assets/icons_sintetic/gen_239.svg
+  String get gen239 => 'assets/icons_sintetic/gen_239.svg';
+
+  /// File path: assets/icons_sintetic/gen_24.svg
+  String get gen24 => 'assets/icons_sintetic/gen_24.svg';
+
+  /// File path: assets/icons_sintetic/gen_240.svg
+  String get gen240 => 'assets/icons_sintetic/gen_240.svg';
+
+  /// File path: assets/icons_sintetic/gen_241.svg
+  String get gen241 => 'assets/icons_sintetic/gen_241.svg';
+
+  /// File path: assets/icons_sintetic/gen_242.svg
+  String get gen242 => 'assets/icons_sintetic/gen_242.svg';
+
+  /// File path: assets/icons_sintetic/gen_243.svg
+  String get gen243 => 'assets/icons_sintetic/gen_243.svg';
+
+  /// File path: assets/icons_sintetic/gen_244.svg
+  String get gen244 => 'assets/icons_sintetic/gen_244.svg';
+
+  /// File path: assets/icons_sintetic/gen_245.svg
+  String get gen245 => 'assets/icons_sintetic/gen_245.svg';
+
+  /// File path: assets/icons_sintetic/gen_246.svg
+  String get gen246 => 'assets/icons_sintetic/gen_246.svg';
+
+  /// File path: assets/icons_sintetic/gen_247.svg
+  String get gen247 => 'assets/icons_sintetic/gen_247.svg';
+
+  /// File path: assets/icons_sintetic/gen_248.svg
+  String get gen248 => 'assets/icons_sintetic/gen_248.svg';
+
+  /// File path: assets/icons_sintetic/gen_249.svg
+  String get gen249 => 'assets/icons_sintetic/gen_249.svg';
+
+  /// File path: assets/icons_sintetic/gen_25.svg
+  String get gen25 => 'assets/icons_sintetic/gen_25.svg';
+
+  /// File path: assets/icons_sintetic/gen_250.svg
+  String get gen250 => 'assets/icons_sintetic/gen_250.svg';
+
+  /// File path: assets/icons_sintetic/gen_251.svg
+  String get gen251 => 'assets/icons_sintetic/gen_251.svg';
+
+  /// File path: assets/icons_sintetic/gen_252.svg
+  String get gen252 => 'assets/icons_sintetic/gen_252.svg';
+
+  /// File path: assets/icons_sintetic/gen_253.svg
+  String get gen253 => 'assets/icons_sintetic/gen_253.svg';
+
+  /// File path: assets/icons_sintetic/gen_254.svg
+  String get gen254 => 'assets/icons_sintetic/gen_254.svg';
+
+  /// File path: assets/icons_sintetic/gen_255.svg
+  String get gen255 => 'assets/icons_sintetic/gen_255.svg';
+
+  /// File path: assets/icons_sintetic/gen_256.svg
+  String get gen256 => 'assets/icons_sintetic/gen_256.svg';
+
+  /// File path: assets/icons_sintetic/gen_257.svg
+  String get gen257 => 'assets/icons_sintetic/gen_257.svg';
+
+  /// File path: assets/icons_sintetic/gen_258.svg
+  String get gen258 => 'assets/icons_sintetic/gen_258.svg';
+
+  /// File path: assets/icons_sintetic/gen_259.svg
+  String get gen259 => 'assets/icons_sintetic/gen_259.svg';
+
+  /// File path: assets/icons_sintetic/gen_26.svg
+  String get gen26 => 'assets/icons_sintetic/gen_26.svg';
+
+  /// File path: assets/icons_sintetic/gen_260.svg
+  String get gen260 => 'assets/icons_sintetic/gen_260.svg';
+
+  /// File path: assets/icons_sintetic/gen_261.svg
+  String get gen261 => 'assets/icons_sintetic/gen_261.svg';
+
+  /// File path: assets/icons_sintetic/gen_262.svg
+  String get gen262 => 'assets/icons_sintetic/gen_262.svg';
+
+  /// File path: assets/icons_sintetic/gen_263.svg
+  String get gen263 => 'assets/icons_sintetic/gen_263.svg';
+
+  /// File path: assets/icons_sintetic/gen_264.svg
+  String get gen264 => 'assets/icons_sintetic/gen_264.svg';
+
+  /// File path: assets/icons_sintetic/gen_265.svg
+  String get gen265 => 'assets/icons_sintetic/gen_265.svg';
+
+  /// File path: assets/icons_sintetic/gen_266.svg
+  String get gen266 => 'assets/icons_sintetic/gen_266.svg';
+
+  /// File path: assets/icons_sintetic/gen_267.svg
+  String get gen267 => 'assets/icons_sintetic/gen_267.svg';
+
+  /// File path: assets/icons_sintetic/gen_268.svg
+  String get gen268 => 'assets/icons_sintetic/gen_268.svg';
+
+  /// File path: assets/icons_sintetic/gen_269.svg
+  String get gen269 => 'assets/icons_sintetic/gen_269.svg';
+
+  /// File path: assets/icons_sintetic/gen_27.svg
+  String get gen27 => 'assets/icons_sintetic/gen_27.svg';
+
+  /// File path: assets/icons_sintetic/gen_270.svg
+  String get gen270 => 'assets/icons_sintetic/gen_270.svg';
+
+  /// File path: assets/icons_sintetic/gen_271.svg
+  String get gen271 => 'assets/icons_sintetic/gen_271.svg';
+
+  /// File path: assets/icons_sintetic/gen_272.svg
+  String get gen272 => 'assets/icons_sintetic/gen_272.svg';
+
+  /// File path: assets/icons_sintetic/gen_273.svg
+  String get gen273 => 'assets/icons_sintetic/gen_273.svg';
+
+  /// File path: assets/icons_sintetic/gen_274.svg
+  String get gen274 => 'assets/icons_sintetic/gen_274.svg';
+
+  /// File path: assets/icons_sintetic/gen_275.svg
+  String get gen275 => 'assets/icons_sintetic/gen_275.svg';
+
+  /// File path: assets/icons_sintetic/gen_276.svg
+  String get gen276 => 'assets/icons_sintetic/gen_276.svg';
+
+  /// File path: assets/icons_sintetic/gen_277.svg
+  String get gen277 => 'assets/icons_sintetic/gen_277.svg';
+
+  /// File path: assets/icons_sintetic/gen_278.svg
+  String get gen278 => 'assets/icons_sintetic/gen_278.svg';
+
+  /// File path: assets/icons_sintetic/gen_279.svg
+  String get gen279 => 'assets/icons_sintetic/gen_279.svg';
+
+  /// File path: assets/icons_sintetic/gen_28.svg
+  String get gen28 => 'assets/icons_sintetic/gen_28.svg';
+
+  /// File path: assets/icons_sintetic/gen_280.svg
+  String get gen280 => 'assets/icons_sintetic/gen_280.svg';
+
+  /// File path: assets/icons_sintetic/gen_281.svg
+  String get gen281 => 'assets/icons_sintetic/gen_281.svg';
+
+  /// File path: assets/icons_sintetic/gen_282.svg
+  String get gen282 => 'assets/icons_sintetic/gen_282.svg';
+
+  /// File path: assets/icons_sintetic/gen_283.svg
+  String get gen283 => 'assets/icons_sintetic/gen_283.svg';
+
+  /// File path: assets/icons_sintetic/gen_284.svg
+  String get gen284 => 'assets/icons_sintetic/gen_284.svg';
+
+  /// File path: assets/icons_sintetic/gen_285.svg
+  String get gen285 => 'assets/icons_sintetic/gen_285.svg';
+
+  /// File path: assets/icons_sintetic/gen_286.svg
+  String get gen286 => 'assets/icons_sintetic/gen_286.svg';
+
+  /// File path: assets/icons_sintetic/gen_287.svg
+  String get gen287 => 'assets/icons_sintetic/gen_287.svg';
+
+  /// File path: assets/icons_sintetic/gen_288.svg
+  String get gen288 => 'assets/icons_sintetic/gen_288.svg';
+
+  /// File path: assets/icons_sintetic/gen_289.svg
+  String get gen289 => 'assets/icons_sintetic/gen_289.svg';
+
+  /// File path: assets/icons_sintetic/gen_29.svg
+  String get gen29 => 'assets/icons_sintetic/gen_29.svg';
+
+  /// File path: assets/icons_sintetic/gen_290.svg
+  String get gen290 => 'assets/icons_sintetic/gen_290.svg';
+
+  /// File path: assets/icons_sintetic/gen_291.svg
+  String get gen291 => 'assets/icons_sintetic/gen_291.svg';
+
+  /// File path: assets/icons_sintetic/gen_292.svg
+  String get gen292 => 'assets/icons_sintetic/gen_292.svg';
+
+  /// File path: assets/icons_sintetic/gen_293.svg
+  String get gen293 => 'assets/icons_sintetic/gen_293.svg';
+
+  /// File path: assets/icons_sintetic/gen_294.svg
+  String get gen294 => 'assets/icons_sintetic/gen_294.svg';
+
+  /// File path: assets/icons_sintetic/gen_295.svg
+  String get gen295 => 'assets/icons_sintetic/gen_295.svg';
+
+  /// File path: assets/icons_sintetic/gen_296.svg
+  String get gen296 => 'assets/icons_sintetic/gen_296.svg';
+
+  /// File path: assets/icons_sintetic/gen_297.svg
+  String get gen297 => 'assets/icons_sintetic/gen_297.svg';
+
+  /// File path: assets/icons_sintetic/gen_298.svg
+  String get gen298 => 'assets/icons_sintetic/gen_298.svg';
+
+  /// File path: assets/icons_sintetic/gen_299.svg
+  String get gen299 => 'assets/icons_sintetic/gen_299.svg';
+
+  /// File path: assets/icons_sintetic/gen_3.svg
+  String get gen3 => 'assets/icons_sintetic/gen_3.svg';
+
+  /// File path: assets/icons_sintetic/gen_30.svg
+  String get gen30 => 'assets/icons_sintetic/gen_30.svg';
+
+  /// File path: assets/icons_sintetic/gen_300.svg
+  String get gen300 => 'assets/icons_sintetic/gen_300.svg';
+
+  /// File path: assets/icons_sintetic/gen_301.svg
+  String get gen301 => 'assets/icons_sintetic/gen_301.svg';
+
+  /// File path: assets/icons_sintetic/gen_302.svg
+  String get gen302 => 'assets/icons_sintetic/gen_302.svg';
+
+  /// File path: assets/icons_sintetic/gen_303.svg
+  String get gen303 => 'assets/icons_sintetic/gen_303.svg';
+
+  /// File path: assets/icons_sintetic/gen_304.svg
+  String get gen304 => 'assets/icons_sintetic/gen_304.svg';
+
+  /// File path: assets/icons_sintetic/gen_305.svg
+  String get gen305 => 'assets/icons_sintetic/gen_305.svg';
+
+  /// File path: assets/icons_sintetic/gen_306.svg
+  String get gen306 => 'assets/icons_sintetic/gen_306.svg';
+
+  /// File path: assets/icons_sintetic/gen_307.svg
+  String get gen307 => 'assets/icons_sintetic/gen_307.svg';
+
+  /// File path: assets/icons_sintetic/gen_308.svg
+  String get gen308 => 'assets/icons_sintetic/gen_308.svg';
+
+  /// File path: assets/icons_sintetic/gen_309.svg
+  String get gen309 => 'assets/icons_sintetic/gen_309.svg';
+
+  /// File path: assets/icons_sintetic/gen_31.svg
+  String get gen31 => 'assets/icons_sintetic/gen_31.svg';
+
+  /// File path: assets/icons_sintetic/gen_310.svg
+  String get gen310 => 'assets/icons_sintetic/gen_310.svg';
+
+  /// File path: assets/icons_sintetic/gen_311.svg
+  String get gen311 => 'assets/icons_sintetic/gen_311.svg';
+
+  /// File path: assets/icons_sintetic/gen_312.svg
+  String get gen312 => 'assets/icons_sintetic/gen_312.svg';
+
+  /// File path: assets/icons_sintetic/gen_313.svg
+  String get gen313 => 'assets/icons_sintetic/gen_313.svg';
+
+  /// File path: assets/icons_sintetic/gen_314.svg
+  String get gen314 => 'assets/icons_sintetic/gen_314.svg';
+
+  /// File path: assets/icons_sintetic/gen_315.svg
+  String get gen315 => 'assets/icons_sintetic/gen_315.svg';
+
+  /// File path: assets/icons_sintetic/gen_316.svg
+  String get gen316 => 'assets/icons_sintetic/gen_316.svg';
+
+  /// File path: assets/icons_sintetic/gen_317.svg
+  String get gen317 => 'assets/icons_sintetic/gen_317.svg';
+
+  /// File path: assets/icons_sintetic/gen_318.svg
+  String get gen318 => 'assets/icons_sintetic/gen_318.svg';
+
+  /// File path: assets/icons_sintetic/gen_319.svg
+  String get gen319 => 'assets/icons_sintetic/gen_319.svg';
+
+  /// File path: assets/icons_sintetic/gen_32.svg
+  String get gen32 => 'assets/icons_sintetic/gen_32.svg';
+
+  /// File path: assets/icons_sintetic/gen_320.svg
+  String get gen320 => 'assets/icons_sintetic/gen_320.svg';
+
+  /// File path: assets/icons_sintetic/gen_321.svg
+  String get gen321 => 'assets/icons_sintetic/gen_321.svg';
+
+  /// File path: assets/icons_sintetic/gen_322.svg
+  String get gen322 => 'assets/icons_sintetic/gen_322.svg';
+
+  /// File path: assets/icons_sintetic/gen_323.svg
+  String get gen323 => 'assets/icons_sintetic/gen_323.svg';
+
+  /// File path: assets/icons_sintetic/gen_324.svg
+  String get gen324 => 'assets/icons_sintetic/gen_324.svg';
+
+  /// File path: assets/icons_sintetic/gen_325.svg
+  String get gen325 => 'assets/icons_sintetic/gen_325.svg';
+
+  /// File path: assets/icons_sintetic/gen_326.svg
+  String get gen326 => 'assets/icons_sintetic/gen_326.svg';
+
+  /// File path: assets/icons_sintetic/gen_327.svg
+  String get gen327 => 'assets/icons_sintetic/gen_327.svg';
+
+  /// File path: assets/icons_sintetic/gen_328.svg
+  String get gen328 => 'assets/icons_sintetic/gen_328.svg';
+
+  /// File path: assets/icons_sintetic/gen_329.svg
+  String get gen329 => 'assets/icons_sintetic/gen_329.svg';
+
+  /// File path: assets/icons_sintetic/gen_33.svg
+  String get gen33 => 'assets/icons_sintetic/gen_33.svg';
+
+  /// File path: assets/icons_sintetic/gen_330.svg
+  String get gen330 => 'assets/icons_sintetic/gen_330.svg';
+
+  /// File path: assets/icons_sintetic/gen_331.svg
+  String get gen331 => 'assets/icons_sintetic/gen_331.svg';
+
+  /// File path: assets/icons_sintetic/gen_332.svg
+  String get gen332 => 'assets/icons_sintetic/gen_332.svg';
+
+  /// File path: assets/icons_sintetic/gen_333.svg
+  String get gen333 => 'assets/icons_sintetic/gen_333.svg';
+
+  /// File path: assets/icons_sintetic/gen_334.svg
+  String get gen334 => 'assets/icons_sintetic/gen_334.svg';
+
+  /// File path: assets/icons_sintetic/gen_335.svg
+  String get gen335 => 'assets/icons_sintetic/gen_335.svg';
+
+  /// File path: assets/icons_sintetic/gen_336.svg
+  String get gen336 => 'assets/icons_sintetic/gen_336.svg';
+
+  /// File path: assets/icons_sintetic/gen_337.svg
+  String get gen337 => 'assets/icons_sintetic/gen_337.svg';
+
+  /// File path: assets/icons_sintetic/gen_338.svg
+  String get gen338 => 'assets/icons_sintetic/gen_338.svg';
+
+  /// File path: assets/icons_sintetic/gen_339.svg
+  String get gen339 => 'assets/icons_sintetic/gen_339.svg';
+
+  /// File path: assets/icons_sintetic/gen_34.svg
+  String get gen34 => 'assets/icons_sintetic/gen_34.svg';
+
+  /// File path: assets/icons_sintetic/gen_340.svg
+  String get gen340 => 'assets/icons_sintetic/gen_340.svg';
+
+  /// File path: assets/icons_sintetic/gen_341.svg
+  String get gen341 => 'assets/icons_sintetic/gen_341.svg';
+
+  /// File path: assets/icons_sintetic/gen_342.svg
+  String get gen342 => 'assets/icons_sintetic/gen_342.svg';
+
+  /// File path: assets/icons_sintetic/gen_343.svg
+  String get gen343 => 'assets/icons_sintetic/gen_343.svg';
+
+  /// File path: assets/icons_sintetic/gen_344.svg
+  String get gen344 => 'assets/icons_sintetic/gen_344.svg';
+
+  /// File path: assets/icons_sintetic/gen_345.svg
+  String get gen345 => 'assets/icons_sintetic/gen_345.svg';
+
+  /// File path: assets/icons_sintetic/gen_346.svg
+  String get gen346 => 'assets/icons_sintetic/gen_346.svg';
+
+  /// File path: assets/icons_sintetic/gen_347.svg
+  String get gen347 => 'assets/icons_sintetic/gen_347.svg';
+
+  /// File path: assets/icons_sintetic/gen_348.svg
+  String get gen348 => 'assets/icons_sintetic/gen_348.svg';
+
+  /// File path: assets/icons_sintetic/gen_349.svg
+  String get gen349 => 'assets/icons_sintetic/gen_349.svg';
+
+  /// File path: assets/icons_sintetic/gen_35.svg
+  String get gen35 => 'assets/icons_sintetic/gen_35.svg';
+
+  /// File path: assets/icons_sintetic/gen_350.svg
+  String get gen350 => 'assets/icons_sintetic/gen_350.svg';
+
+  /// File path: assets/icons_sintetic/gen_351.svg
+  String get gen351 => 'assets/icons_sintetic/gen_351.svg';
+
+  /// File path: assets/icons_sintetic/gen_352.svg
+  String get gen352 => 'assets/icons_sintetic/gen_352.svg';
+
+  /// File path: assets/icons_sintetic/gen_353.svg
+  String get gen353 => 'assets/icons_sintetic/gen_353.svg';
+
+  /// File path: assets/icons_sintetic/gen_354.svg
+  String get gen354 => 'assets/icons_sintetic/gen_354.svg';
+
+  /// File path: assets/icons_sintetic/gen_355.svg
+  String get gen355 => 'assets/icons_sintetic/gen_355.svg';
+
+  /// File path: assets/icons_sintetic/gen_356.svg
+  String get gen356 => 'assets/icons_sintetic/gen_356.svg';
+
+  /// File path: assets/icons_sintetic/gen_357.svg
+  String get gen357 => 'assets/icons_sintetic/gen_357.svg';
+
+  /// File path: assets/icons_sintetic/gen_358.svg
+  String get gen358 => 'assets/icons_sintetic/gen_358.svg';
+
+  /// File path: assets/icons_sintetic/gen_359.svg
+  String get gen359 => 'assets/icons_sintetic/gen_359.svg';
+
+  /// File path: assets/icons_sintetic/gen_36.svg
+  String get gen36 => 'assets/icons_sintetic/gen_36.svg';
+
+  /// File path: assets/icons_sintetic/gen_360.svg
+  String get gen360 => 'assets/icons_sintetic/gen_360.svg';
+
+  /// File path: assets/icons_sintetic/gen_361.svg
+  String get gen361 => 'assets/icons_sintetic/gen_361.svg';
+
+  /// File path: assets/icons_sintetic/gen_362.svg
+  String get gen362 => 'assets/icons_sintetic/gen_362.svg';
+
+  /// File path: assets/icons_sintetic/gen_363.svg
+  String get gen363 => 'assets/icons_sintetic/gen_363.svg';
+
+  /// File path: assets/icons_sintetic/gen_364.svg
+  String get gen364 => 'assets/icons_sintetic/gen_364.svg';
+
+  /// File path: assets/icons_sintetic/gen_365.svg
+  String get gen365 => 'assets/icons_sintetic/gen_365.svg';
+
+  /// File path: assets/icons_sintetic/gen_366.svg
+  String get gen366 => 'assets/icons_sintetic/gen_366.svg';
+
+  /// File path: assets/icons_sintetic/gen_367.svg
+  String get gen367 => 'assets/icons_sintetic/gen_367.svg';
+
+  /// File path: assets/icons_sintetic/gen_368.svg
+  String get gen368 => 'assets/icons_sintetic/gen_368.svg';
+
+  /// File path: assets/icons_sintetic/gen_369.svg
+  String get gen369 => 'assets/icons_sintetic/gen_369.svg';
+
+  /// File path: assets/icons_sintetic/gen_37.svg
+  String get gen37 => 'assets/icons_sintetic/gen_37.svg';
+
+  /// File path: assets/icons_sintetic/gen_370.svg
+  String get gen370 => 'assets/icons_sintetic/gen_370.svg';
+
+  /// File path: assets/icons_sintetic/gen_371.svg
+  String get gen371 => 'assets/icons_sintetic/gen_371.svg';
+
+  /// File path: assets/icons_sintetic/gen_372.svg
+  String get gen372 => 'assets/icons_sintetic/gen_372.svg';
+
+  /// File path: assets/icons_sintetic/gen_373.svg
+  String get gen373 => 'assets/icons_sintetic/gen_373.svg';
+
+  /// File path: assets/icons_sintetic/gen_374.svg
+  String get gen374 => 'assets/icons_sintetic/gen_374.svg';
+
+  /// File path: assets/icons_sintetic/gen_375.svg
+  String get gen375 => 'assets/icons_sintetic/gen_375.svg';
+
+  /// File path: assets/icons_sintetic/gen_376.svg
+  String get gen376 => 'assets/icons_sintetic/gen_376.svg';
+
+  /// File path: assets/icons_sintetic/gen_377.svg
+  String get gen377 => 'assets/icons_sintetic/gen_377.svg';
+
+  /// File path: assets/icons_sintetic/gen_378.svg
+  String get gen378 => 'assets/icons_sintetic/gen_378.svg';
+
+  /// File path: assets/icons_sintetic/gen_379.svg
+  String get gen379 => 'assets/icons_sintetic/gen_379.svg';
+
+  /// File path: assets/icons_sintetic/gen_38.svg
+  String get gen38 => 'assets/icons_sintetic/gen_38.svg';
+
+  /// File path: assets/icons_sintetic/gen_380.svg
+  String get gen380 => 'assets/icons_sintetic/gen_380.svg';
+
+  /// File path: assets/icons_sintetic/gen_381.svg
+  String get gen381 => 'assets/icons_sintetic/gen_381.svg';
+
+  /// File path: assets/icons_sintetic/gen_382.svg
+  String get gen382 => 'assets/icons_sintetic/gen_382.svg';
+
+  /// File path: assets/icons_sintetic/gen_383.svg
+  String get gen383 => 'assets/icons_sintetic/gen_383.svg';
+
+  /// File path: assets/icons_sintetic/gen_384.svg
+  String get gen384 => 'assets/icons_sintetic/gen_384.svg';
+
+  /// File path: assets/icons_sintetic/gen_385.svg
+  String get gen385 => 'assets/icons_sintetic/gen_385.svg';
+
+  /// File path: assets/icons_sintetic/gen_386.svg
+  String get gen386 => 'assets/icons_sintetic/gen_386.svg';
+
+  /// File path: assets/icons_sintetic/gen_387.svg
+  String get gen387 => 'assets/icons_sintetic/gen_387.svg';
+
+  /// File path: assets/icons_sintetic/gen_388.svg
+  String get gen388 => 'assets/icons_sintetic/gen_388.svg';
+
+  /// File path: assets/icons_sintetic/gen_389.svg
+  String get gen389 => 'assets/icons_sintetic/gen_389.svg';
+
+  /// File path: assets/icons_sintetic/gen_39.svg
+  String get gen39 => 'assets/icons_sintetic/gen_39.svg';
+
+  /// File path: assets/icons_sintetic/gen_390.svg
+  String get gen390 => 'assets/icons_sintetic/gen_390.svg';
+
+  /// File path: assets/icons_sintetic/gen_391.svg
+  String get gen391 => 'assets/icons_sintetic/gen_391.svg';
+
+  /// File path: assets/icons_sintetic/gen_392.svg
+  String get gen392 => 'assets/icons_sintetic/gen_392.svg';
+
+  /// File path: assets/icons_sintetic/gen_393.svg
+  String get gen393 => 'assets/icons_sintetic/gen_393.svg';
+
+  /// File path: assets/icons_sintetic/gen_394.svg
+  String get gen394 => 'assets/icons_sintetic/gen_394.svg';
+
+  /// File path: assets/icons_sintetic/gen_395.svg
+  String get gen395 => 'assets/icons_sintetic/gen_395.svg';
+
+  /// File path: assets/icons_sintetic/gen_396.svg
+  String get gen396 => 'assets/icons_sintetic/gen_396.svg';
+
+  /// File path: assets/icons_sintetic/gen_397.svg
+  String get gen397 => 'assets/icons_sintetic/gen_397.svg';
+
+  /// File path: assets/icons_sintetic/gen_398.svg
+  String get gen398 => 'assets/icons_sintetic/gen_398.svg';
+
+  /// File path: assets/icons_sintetic/gen_399.svg
+  String get gen399 => 'assets/icons_sintetic/gen_399.svg';
+
+  /// File path: assets/icons_sintetic/gen_4.svg
+  String get gen4 => 'assets/icons_sintetic/gen_4.svg';
+
+  /// File path: assets/icons_sintetic/gen_40.svg
+  String get gen40 => 'assets/icons_sintetic/gen_40.svg';
+
+  /// File path: assets/icons_sintetic/gen_400.svg
+  String get gen400 => 'assets/icons_sintetic/gen_400.svg';
+
+  /// File path: assets/icons_sintetic/gen_401.svg
+  String get gen401 => 'assets/icons_sintetic/gen_401.svg';
+
+  /// File path: assets/icons_sintetic/gen_402.svg
+  String get gen402 => 'assets/icons_sintetic/gen_402.svg';
+
+  /// File path: assets/icons_sintetic/gen_403.svg
+  String get gen403 => 'assets/icons_sintetic/gen_403.svg';
+
+  /// File path: assets/icons_sintetic/gen_404.svg
+  String get gen404 => 'assets/icons_sintetic/gen_404.svg';
+
+  /// File path: assets/icons_sintetic/gen_405.svg
+  String get gen405 => 'assets/icons_sintetic/gen_405.svg';
+
+  /// File path: assets/icons_sintetic/gen_406.svg
+  String get gen406 => 'assets/icons_sintetic/gen_406.svg';
+
+  /// File path: assets/icons_sintetic/gen_407.svg
+  String get gen407 => 'assets/icons_sintetic/gen_407.svg';
+
+  /// File path: assets/icons_sintetic/gen_408.svg
+  String get gen408 => 'assets/icons_sintetic/gen_408.svg';
+
+  /// File path: assets/icons_sintetic/gen_409.svg
+  String get gen409 => 'assets/icons_sintetic/gen_409.svg';
+
+  /// File path: assets/icons_sintetic/gen_41.svg
+  String get gen41 => 'assets/icons_sintetic/gen_41.svg';
+
+  /// File path: assets/icons_sintetic/gen_410.svg
+  String get gen410 => 'assets/icons_sintetic/gen_410.svg';
+
+  /// File path: assets/icons_sintetic/gen_411.svg
+  String get gen411 => 'assets/icons_sintetic/gen_411.svg';
+
+  /// File path: assets/icons_sintetic/gen_412.svg
+  String get gen412 => 'assets/icons_sintetic/gen_412.svg';
+
+  /// File path: assets/icons_sintetic/gen_413.svg
+  String get gen413 => 'assets/icons_sintetic/gen_413.svg';
+
+  /// File path: assets/icons_sintetic/gen_414.svg
+  String get gen414 => 'assets/icons_sintetic/gen_414.svg';
+
+  /// File path: assets/icons_sintetic/gen_415.svg
+  String get gen415 => 'assets/icons_sintetic/gen_415.svg';
+
+  /// File path: assets/icons_sintetic/gen_416.svg
+  String get gen416 => 'assets/icons_sintetic/gen_416.svg';
+
+  /// File path: assets/icons_sintetic/gen_417.svg
+  String get gen417 => 'assets/icons_sintetic/gen_417.svg';
+
+  /// File path: assets/icons_sintetic/gen_418.svg
+  String get gen418 => 'assets/icons_sintetic/gen_418.svg';
+
+  /// File path: assets/icons_sintetic/gen_419.svg
+  String get gen419 => 'assets/icons_sintetic/gen_419.svg';
+
+  /// File path: assets/icons_sintetic/gen_42.svg
+  String get gen42 => 'assets/icons_sintetic/gen_42.svg';
+
+  /// File path: assets/icons_sintetic/gen_420.svg
+  String get gen420 => 'assets/icons_sintetic/gen_420.svg';
+
+  /// File path: assets/icons_sintetic/gen_421.svg
+  String get gen421 => 'assets/icons_sintetic/gen_421.svg';
+
+  /// File path: assets/icons_sintetic/gen_422.svg
+  String get gen422 => 'assets/icons_sintetic/gen_422.svg';
+
+  /// File path: assets/icons_sintetic/gen_423.svg
+  String get gen423 => 'assets/icons_sintetic/gen_423.svg';
+
+  /// File path: assets/icons_sintetic/gen_424.svg
+  String get gen424 => 'assets/icons_sintetic/gen_424.svg';
+
+  /// File path: assets/icons_sintetic/gen_425.svg
+  String get gen425 => 'assets/icons_sintetic/gen_425.svg';
+
+  /// File path: assets/icons_sintetic/gen_426.svg
+  String get gen426 => 'assets/icons_sintetic/gen_426.svg';
+
+  /// File path: assets/icons_sintetic/gen_427.svg
+  String get gen427 => 'assets/icons_sintetic/gen_427.svg';
+
+  /// File path: assets/icons_sintetic/gen_428.svg
+  String get gen428 => 'assets/icons_sintetic/gen_428.svg';
+
+  /// File path: assets/icons_sintetic/gen_429.svg
+  String get gen429 => 'assets/icons_sintetic/gen_429.svg';
+
+  /// File path: assets/icons_sintetic/gen_43.svg
+  String get gen43 => 'assets/icons_sintetic/gen_43.svg';
+
+  /// File path: assets/icons_sintetic/gen_430.svg
+  String get gen430 => 'assets/icons_sintetic/gen_430.svg';
+
+  /// File path: assets/icons_sintetic/gen_431.svg
+  String get gen431 => 'assets/icons_sintetic/gen_431.svg';
+
+  /// File path: assets/icons_sintetic/gen_432.svg
+  String get gen432 => 'assets/icons_sintetic/gen_432.svg';
+
+  /// File path: assets/icons_sintetic/gen_433.svg
+  String get gen433 => 'assets/icons_sintetic/gen_433.svg';
+
+  /// File path: assets/icons_sintetic/gen_434.svg
+  String get gen434 => 'assets/icons_sintetic/gen_434.svg';
+
+  /// File path: assets/icons_sintetic/gen_435.svg
+  String get gen435 => 'assets/icons_sintetic/gen_435.svg';
+
+  /// File path: assets/icons_sintetic/gen_436.svg
+  String get gen436 => 'assets/icons_sintetic/gen_436.svg';
+
+  /// File path: assets/icons_sintetic/gen_437.svg
+  String get gen437 => 'assets/icons_sintetic/gen_437.svg';
+
+  /// File path: assets/icons_sintetic/gen_438.svg
+  String get gen438 => 'assets/icons_sintetic/gen_438.svg';
+
+  /// File path: assets/icons_sintetic/gen_439.svg
+  String get gen439 => 'assets/icons_sintetic/gen_439.svg';
+
+  /// File path: assets/icons_sintetic/gen_44.svg
+  String get gen44 => 'assets/icons_sintetic/gen_44.svg';
+
+  /// File path: assets/icons_sintetic/gen_440.svg
+  String get gen440 => 'assets/icons_sintetic/gen_440.svg';
+
+  /// File path: assets/icons_sintetic/gen_441.svg
+  String get gen441 => 'assets/icons_sintetic/gen_441.svg';
+
+  /// File path: assets/icons_sintetic/gen_442.svg
+  String get gen442 => 'assets/icons_sintetic/gen_442.svg';
+
+  /// File path: assets/icons_sintetic/gen_443.svg
+  String get gen443 => 'assets/icons_sintetic/gen_443.svg';
+
+  /// File path: assets/icons_sintetic/gen_444.svg
+  String get gen444 => 'assets/icons_sintetic/gen_444.svg';
+
+  /// File path: assets/icons_sintetic/gen_445.svg
+  String get gen445 => 'assets/icons_sintetic/gen_445.svg';
+
+  /// File path: assets/icons_sintetic/gen_446.svg
+  String get gen446 => 'assets/icons_sintetic/gen_446.svg';
+
+  /// File path: assets/icons_sintetic/gen_447.svg
+  String get gen447 => 'assets/icons_sintetic/gen_447.svg';
+
+  /// File path: assets/icons_sintetic/gen_448.svg
+  String get gen448 => 'assets/icons_sintetic/gen_448.svg';
+
+  /// File path: assets/icons_sintetic/gen_449.svg
+  String get gen449 => 'assets/icons_sintetic/gen_449.svg';
+
+  /// File path: assets/icons_sintetic/gen_45.svg
+  String get gen45 => 'assets/icons_sintetic/gen_45.svg';
+
+  /// File path: assets/icons_sintetic/gen_450.svg
+  String get gen450 => 'assets/icons_sintetic/gen_450.svg';
+
+  /// File path: assets/icons_sintetic/gen_451.svg
+  String get gen451 => 'assets/icons_sintetic/gen_451.svg';
+
+  /// File path: assets/icons_sintetic/gen_452.svg
+  String get gen452 => 'assets/icons_sintetic/gen_452.svg';
+
+  /// File path: assets/icons_sintetic/gen_453.svg
+  String get gen453 => 'assets/icons_sintetic/gen_453.svg';
+
+  /// File path: assets/icons_sintetic/gen_454.svg
+  String get gen454 => 'assets/icons_sintetic/gen_454.svg';
+
+  /// File path: assets/icons_sintetic/gen_455.svg
+  String get gen455 => 'assets/icons_sintetic/gen_455.svg';
+
+  /// File path: assets/icons_sintetic/gen_456.svg
+  String get gen456 => 'assets/icons_sintetic/gen_456.svg';
+
+  /// File path: assets/icons_sintetic/gen_457.svg
+  String get gen457 => 'assets/icons_sintetic/gen_457.svg';
+
+  /// File path: assets/icons_sintetic/gen_458.svg
+  String get gen458 => 'assets/icons_sintetic/gen_458.svg';
+
+  /// File path: assets/icons_sintetic/gen_459.svg
+  String get gen459 => 'assets/icons_sintetic/gen_459.svg';
+
+  /// File path: assets/icons_sintetic/gen_46.svg
+  String get gen46 => 'assets/icons_sintetic/gen_46.svg';
+
+  /// File path: assets/icons_sintetic/gen_460.svg
+  String get gen460 => 'assets/icons_sintetic/gen_460.svg';
+
+  /// File path: assets/icons_sintetic/gen_461.svg
+  String get gen461 => 'assets/icons_sintetic/gen_461.svg';
+
+  /// File path: assets/icons_sintetic/gen_462.svg
+  String get gen462 => 'assets/icons_sintetic/gen_462.svg';
+
+  /// File path: assets/icons_sintetic/gen_463.svg
+  String get gen463 => 'assets/icons_sintetic/gen_463.svg';
+
+  /// File path: assets/icons_sintetic/gen_464.svg
+  String get gen464 => 'assets/icons_sintetic/gen_464.svg';
+
+  /// File path: assets/icons_sintetic/gen_465.svg
+  String get gen465 => 'assets/icons_sintetic/gen_465.svg';
+
+  /// File path: assets/icons_sintetic/gen_466.svg
+  String get gen466 => 'assets/icons_sintetic/gen_466.svg';
+
+  /// File path: assets/icons_sintetic/gen_467.svg
+  String get gen467 => 'assets/icons_sintetic/gen_467.svg';
+
+  /// File path: assets/icons_sintetic/gen_468.svg
+  String get gen468 => 'assets/icons_sintetic/gen_468.svg';
+
+  /// File path: assets/icons_sintetic/gen_469.svg
+  String get gen469 => 'assets/icons_sintetic/gen_469.svg';
+
+  /// File path: assets/icons_sintetic/gen_47.svg
+  String get gen47 => 'assets/icons_sintetic/gen_47.svg';
+
+  /// File path: assets/icons_sintetic/gen_470.svg
+  String get gen470 => 'assets/icons_sintetic/gen_470.svg';
+
+  /// File path: assets/icons_sintetic/gen_471.svg
+  String get gen471 => 'assets/icons_sintetic/gen_471.svg';
+
+  /// File path: assets/icons_sintetic/gen_472.svg
+  String get gen472 => 'assets/icons_sintetic/gen_472.svg';
+
+  /// File path: assets/icons_sintetic/gen_473.svg
+  String get gen473 => 'assets/icons_sintetic/gen_473.svg';
+
+  /// File path: assets/icons_sintetic/gen_474.svg
+  String get gen474 => 'assets/icons_sintetic/gen_474.svg';
+
+  /// File path: assets/icons_sintetic/gen_475.svg
+  String get gen475 => 'assets/icons_sintetic/gen_475.svg';
+
+  /// File path: assets/icons_sintetic/gen_476.svg
+  String get gen476 => 'assets/icons_sintetic/gen_476.svg';
+
+  /// File path: assets/icons_sintetic/gen_477.svg
+  String get gen477 => 'assets/icons_sintetic/gen_477.svg';
+
+  /// File path: assets/icons_sintetic/gen_478.svg
+  String get gen478 => 'assets/icons_sintetic/gen_478.svg';
+
+  /// File path: assets/icons_sintetic/gen_479.svg
+  String get gen479 => 'assets/icons_sintetic/gen_479.svg';
+
+  /// File path: assets/icons_sintetic/gen_48.svg
+  String get gen48 => 'assets/icons_sintetic/gen_48.svg';
+
+  /// File path: assets/icons_sintetic/gen_480.svg
+  String get gen480 => 'assets/icons_sintetic/gen_480.svg';
+
+  /// File path: assets/icons_sintetic/gen_481.svg
+  String get gen481 => 'assets/icons_sintetic/gen_481.svg';
+
+  /// File path: assets/icons_sintetic/gen_482.svg
+  String get gen482 => 'assets/icons_sintetic/gen_482.svg';
+
+  /// File path: assets/icons_sintetic/gen_483.svg
+  String get gen483 => 'assets/icons_sintetic/gen_483.svg';
+
+  /// File path: assets/icons_sintetic/gen_484.svg
+  String get gen484 => 'assets/icons_sintetic/gen_484.svg';
+
+  /// File path: assets/icons_sintetic/gen_485.svg
+  String get gen485 => 'assets/icons_sintetic/gen_485.svg';
+
+  /// File path: assets/icons_sintetic/gen_486.svg
+  String get gen486 => 'assets/icons_sintetic/gen_486.svg';
+
+  /// File path: assets/icons_sintetic/gen_487.svg
+  String get gen487 => 'assets/icons_sintetic/gen_487.svg';
+
+  /// File path: assets/icons_sintetic/gen_488.svg
+  String get gen488 => 'assets/icons_sintetic/gen_488.svg';
+
+  /// File path: assets/icons_sintetic/gen_489.svg
+  String get gen489 => 'assets/icons_sintetic/gen_489.svg';
+
+  /// File path: assets/icons_sintetic/gen_49.svg
+  String get gen49 => 'assets/icons_sintetic/gen_49.svg';
+
+  /// File path: assets/icons_sintetic/gen_490.svg
+  String get gen490 => 'assets/icons_sintetic/gen_490.svg';
+
+  /// File path: assets/icons_sintetic/gen_491.svg
+  String get gen491 => 'assets/icons_sintetic/gen_491.svg';
+
+  /// File path: assets/icons_sintetic/gen_492.svg
+  String get gen492 => 'assets/icons_sintetic/gen_492.svg';
+
+  /// File path: assets/icons_sintetic/gen_493.svg
+  String get gen493 => 'assets/icons_sintetic/gen_493.svg';
+
+  /// File path: assets/icons_sintetic/gen_494.svg
+  String get gen494 => 'assets/icons_sintetic/gen_494.svg';
+
+  /// File path: assets/icons_sintetic/gen_495.svg
+  String get gen495 => 'assets/icons_sintetic/gen_495.svg';
+
+  /// File path: assets/icons_sintetic/gen_496.svg
+  String get gen496 => 'assets/icons_sintetic/gen_496.svg';
+
+  /// File path: assets/icons_sintetic/gen_497.svg
+  String get gen497 => 'assets/icons_sintetic/gen_497.svg';
+
+  /// File path: assets/icons_sintetic/gen_498.svg
+  String get gen498 => 'assets/icons_sintetic/gen_498.svg';
+
+  /// File path: assets/icons_sintetic/gen_499.svg
+  String get gen499 => 'assets/icons_sintetic/gen_499.svg';
+
+  /// File path: assets/icons_sintetic/gen_5.svg
+  String get gen5 => 'assets/icons_sintetic/gen_5.svg';
+
+  /// File path: assets/icons_sintetic/gen_50.svg
+  String get gen50 => 'assets/icons_sintetic/gen_50.svg';
+
+  /// File path: assets/icons_sintetic/gen_51.svg
+  String get gen51 => 'assets/icons_sintetic/gen_51.svg';
+
+  /// File path: assets/icons_sintetic/gen_52.svg
+  String get gen52 => 'assets/icons_sintetic/gen_52.svg';
+
+  /// File path: assets/icons_sintetic/gen_53.svg
+  String get gen53 => 'assets/icons_sintetic/gen_53.svg';
+
+  /// File path: assets/icons_sintetic/gen_54.svg
+  String get gen54 => 'assets/icons_sintetic/gen_54.svg';
+
+  /// File path: assets/icons_sintetic/gen_55.svg
+  String get gen55 => 'assets/icons_sintetic/gen_55.svg';
+
+  /// File path: assets/icons_sintetic/gen_56.svg
+  String get gen56 => 'assets/icons_sintetic/gen_56.svg';
+
+  /// File path: assets/icons_sintetic/gen_57.svg
+  String get gen57 => 'assets/icons_sintetic/gen_57.svg';
+
+  /// File path: assets/icons_sintetic/gen_58.svg
+  String get gen58 => 'assets/icons_sintetic/gen_58.svg';
+
+  /// File path: assets/icons_sintetic/gen_59.svg
+  String get gen59 => 'assets/icons_sintetic/gen_59.svg';
+
+  /// File path: assets/icons_sintetic/gen_6.svg
+  String get gen6 => 'assets/icons_sintetic/gen_6.svg';
+
+  /// File path: assets/icons_sintetic/gen_60.svg
+  String get gen60 => 'assets/icons_sintetic/gen_60.svg';
+
+  /// File path: assets/icons_sintetic/gen_61.svg
+  String get gen61 => 'assets/icons_sintetic/gen_61.svg';
+
+  /// File path: assets/icons_sintetic/gen_62.svg
+  String get gen62 => 'assets/icons_sintetic/gen_62.svg';
+
+  /// File path: assets/icons_sintetic/gen_63.svg
+  String get gen63 => 'assets/icons_sintetic/gen_63.svg';
+
+  /// File path: assets/icons_sintetic/gen_64.svg
+  String get gen64 => 'assets/icons_sintetic/gen_64.svg';
+
+  /// File path: assets/icons_sintetic/gen_65.svg
+  String get gen65 => 'assets/icons_sintetic/gen_65.svg';
+
+  /// File path: assets/icons_sintetic/gen_66.svg
+  String get gen66 => 'assets/icons_sintetic/gen_66.svg';
+
+  /// File path: assets/icons_sintetic/gen_67.svg
+  String get gen67 => 'assets/icons_sintetic/gen_67.svg';
+
+  /// File path: assets/icons_sintetic/gen_68.svg
+  String get gen68 => 'assets/icons_sintetic/gen_68.svg';
+
+  /// File path: assets/icons_sintetic/gen_69.svg
+  String get gen69 => 'assets/icons_sintetic/gen_69.svg';
+
+  /// File path: assets/icons_sintetic/gen_7.svg
+  String get gen7 => 'assets/icons_sintetic/gen_7.svg';
+
+  /// File path: assets/icons_sintetic/gen_70.svg
+  String get gen70 => 'assets/icons_sintetic/gen_70.svg';
+
+  /// File path: assets/icons_sintetic/gen_71.svg
+  String get gen71 => 'assets/icons_sintetic/gen_71.svg';
+
+  /// File path: assets/icons_sintetic/gen_72.svg
+  String get gen72 => 'assets/icons_sintetic/gen_72.svg';
+
+  /// File path: assets/icons_sintetic/gen_73.svg
+  String get gen73 => 'assets/icons_sintetic/gen_73.svg';
+
+  /// File path: assets/icons_sintetic/gen_74.svg
+  String get gen74 => 'assets/icons_sintetic/gen_74.svg';
+
+  /// File path: assets/icons_sintetic/gen_75.svg
+  String get gen75 => 'assets/icons_sintetic/gen_75.svg';
+
+  /// File path: assets/icons_sintetic/gen_76.svg
+  String get gen76 => 'assets/icons_sintetic/gen_76.svg';
+
+  /// File path: assets/icons_sintetic/gen_77.svg
+  String get gen77 => 'assets/icons_sintetic/gen_77.svg';
+
+  /// File path: assets/icons_sintetic/gen_78.svg
+  String get gen78 => 'assets/icons_sintetic/gen_78.svg';
+
+  /// File path: assets/icons_sintetic/gen_79.svg
+  String get gen79 => 'assets/icons_sintetic/gen_79.svg';
+
+  /// File path: assets/icons_sintetic/gen_8.svg
+  String get gen8 => 'assets/icons_sintetic/gen_8.svg';
+
+  /// File path: assets/icons_sintetic/gen_80.svg
+  String get gen80 => 'assets/icons_sintetic/gen_80.svg';
+
+  /// File path: assets/icons_sintetic/gen_81.svg
+  String get gen81 => 'assets/icons_sintetic/gen_81.svg';
+
+  /// File path: assets/icons_sintetic/gen_82.svg
+  String get gen82 => 'assets/icons_sintetic/gen_82.svg';
+
+  /// File path: assets/icons_sintetic/gen_83.svg
+  String get gen83 => 'assets/icons_sintetic/gen_83.svg';
+
+  /// File path: assets/icons_sintetic/gen_84.svg
+  String get gen84 => 'assets/icons_sintetic/gen_84.svg';
+
+  /// File path: assets/icons_sintetic/gen_85.svg
+  String get gen85 => 'assets/icons_sintetic/gen_85.svg';
+
+  /// File path: assets/icons_sintetic/gen_86.svg
+  String get gen86 => 'assets/icons_sintetic/gen_86.svg';
+
+  /// File path: assets/icons_sintetic/gen_87.svg
+  String get gen87 => 'assets/icons_sintetic/gen_87.svg';
+
+  /// File path: assets/icons_sintetic/gen_88.svg
+  String get gen88 => 'assets/icons_sintetic/gen_88.svg';
+
+  /// File path: assets/icons_sintetic/gen_89.svg
+  String get gen89 => 'assets/icons_sintetic/gen_89.svg';
+
+  /// File path: assets/icons_sintetic/gen_9.svg
+  String get gen9 => 'assets/icons_sintetic/gen_9.svg';
+
+  /// File path: assets/icons_sintetic/gen_90.svg
+  String get gen90 => 'assets/icons_sintetic/gen_90.svg';
+
+  /// File path: assets/icons_sintetic/gen_91.svg
+  String get gen91 => 'assets/icons_sintetic/gen_91.svg';
+
+  /// File path: assets/icons_sintetic/gen_92.svg
+  String get gen92 => 'assets/icons_sintetic/gen_92.svg';
+
+  /// File path: assets/icons_sintetic/gen_93.svg
+  String get gen93 => 'assets/icons_sintetic/gen_93.svg';
+
+  /// File path: assets/icons_sintetic/gen_94.svg
+  String get gen94 => 'assets/icons_sintetic/gen_94.svg';
+
+  /// File path: assets/icons_sintetic/gen_95.svg
+  String get gen95 => 'assets/icons_sintetic/gen_95.svg';
+
+  /// File path: assets/icons_sintetic/gen_96.svg
+  String get gen96 => 'assets/icons_sintetic/gen_96.svg';
+
+  /// File path: assets/icons_sintetic/gen_97.svg
+  String get gen97 => 'assets/icons_sintetic/gen_97.svg';
+
+  /// File path: assets/icons_sintetic/gen_98.svg
+  String get gen98 => 'assets/icons_sintetic/gen_98.svg';
+
+  /// File path: assets/icons_sintetic/gen_99.svg
+  String get gen99 => 'assets/icons_sintetic/gen_99.svg';
+
+  /// List of all assets
+  List<String> get values => [
+    gen0,
+    gen1,
+    gen10,
+    gen100,
+    gen101,
+    gen102,
+    gen103,
+    gen104,
+    gen105,
+    gen106,
+    gen107,
+    gen108,
+    gen109,
+    gen11,
+    gen110,
+    gen111,
+    gen112,
+    gen113,
+    gen114,
+    gen115,
+    gen116,
+    gen117,
+    gen118,
+    gen119,
+    gen12,
+    gen120,
+    gen121,
+    gen122,
+    gen123,
+    gen124,
+    gen125,
+    gen126,
+    gen127,
+    gen128,
+    gen129,
+    gen13,
+    gen130,
+    gen131,
+    gen132,
+    gen133,
+    gen134,
+    gen135,
+    gen136,
+    gen137,
+    gen138,
+    gen139,
+    gen14,
+    gen140,
+    gen141,
+    gen142,
+    gen143,
+    gen144,
+    gen145,
+    gen146,
+    gen147,
+    gen148,
+    gen149,
+    gen15,
+    gen150,
+    gen151,
+    gen152,
+    gen153,
+    gen154,
+    gen155,
+    gen156,
+    gen157,
+    gen158,
+    gen159,
+    gen16,
+    gen160,
+    gen161,
+    gen162,
+    gen163,
+    gen164,
+    gen165,
+    gen166,
+    gen167,
+    gen168,
+    gen169,
+    gen17,
+    gen170,
+    gen171,
+    gen172,
+    gen173,
+    gen174,
+    gen175,
+    gen176,
+    gen177,
+    gen178,
+    gen179,
+    gen18,
+    gen180,
+    gen181,
+    gen182,
+    gen183,
+    gen184,
+    gen185,
+    gen186,
+    gen187,
+    gen188,
+    gen189,
+    gen19,
+    gen190,
+    gen191,
+    gen192,
+    gen193,
+    gen194,
+    gen195,
+    gen196,
+    gen197,
+    gen198,
+    gen199,
+    gen2,
+    gen20,
+    gen200,
+    gen201,
+    gen202,
+    gen203,
+    gen204,
+    gen205,
+    gen206,
+    gen207,
+    gen208,
+    gen209,
+    gen21,
+    gen210,
+    gen211,
+    gen212,
+    gen213,
+    gen214,
+    gen215,
+    gen216,
+    gen217,
+    gen218,
+    gen219,
+    gen22,
+    gen220,
+    gen221,
+    gen222,
+    gen223,
+    gen224,
+    gen225,
+    gen226,
+    gen227,
+    gen228,
+    gen229,
+    gen23,
+    gen230,
+    gen231,
+    gen232,
+    gen233,
+    gen234,
+    gen235,
+    gen236,
+    gen237,
+    gen238,
+    gen239,
+    gen24,
+    gen240,
+    gen241,
+    gen242,
+    gen243,
+    gen244,
+    gen245,
+    gen246,
+    gen247,
+    gen248,
+    gen249,
+    gen25,
+    gen250,
+    gen251,
+    gen252,
+    gen253,
+    gen254,
+    gen255,
+    gen256,
+    gen257,
+    gen258,
+    gen259,
+    gen26,
+    gen260,
+    gen261,
+    gen262,
+    gen263,
+    gen264,
+    gen265,
+    gen266,
+    gen267,
+    gen268,
+    gen269,
+    gen27,
+    gen270,
+    gen271,
+    gen272,
+    gen273,
+    gen274,
+    gen275,
+    gen276,
+    gen277,
+    gen278,
+    gen279,
+    gen28,
+    gen280,
+    gen281,
+    gen282,
+    gen283,
+    gen284,
+    gen285,
+    gen286,
+    gen287,
+    gen288,
+    gen289,
+    gen29,
+    gen290,
+    gen291,
+    gen292,
+    gen293,
+    gen294,
+    gen295,
+    gen296,
+    gen297,
+    gen298,
+    gen299,
+    gen3,
+    gen30,
+    gen300,
+    gen301,
+    gen302,
+    gen303,
+    gen304,
+    gen305,
+    gen306,
+    gen307,
+    gen308,
+    gen309,
+    gen31,
+    gen310,
+    gen311,
+    gen312,
+    gen313,
+    gen314,
+    gen315,
+    gen316,
+    gen317,
+    gen318,
+    gen319,
+    gen32,
+    gen320,
+    gen321,
+    gen322,
+    gen323,
+    gen324,
+    gen325,
+    gen326,
+    gen327,
+    gen328,
+    gen329,
+    gen33,
+    gen330,
+    gen331,
+    gen332,
+    gen333,
+    gen334,
+    gen335,
+    gen336,
+    gen337,
+    gen338,
+    gen339,
+    gen34,
+    gen340,
+    gen341,
+    gen342,
+    gen343,
+    gen344,
+    gen345,
+    gen346,
+    gen347,
+    gen348,
+    gen349,
+    gen35,
+    gen350,
+    gen351,
+    gen352,
+    gen353,
+    gen354,
+    gen355,
+    gen356,
+    gen357,
+    gen358,
+    gen359,
+    gen36,
+    gen360,
+    gen361,
+    gen362,
+    gen363,
+    gen364,
+    gen365,
+    gen366,
+    gen367,
+    gen368,
+    gen369,
+    gen37,
+    gen370,
+    gen371,
+    gen372,
+    gen373,
+    gen374,
+    gen375,
+    gen376,
+    gen377,
+    gen378,
+    gen379,
+    gen38,
+    gen380,
+    gen381,
+    gen382,
+    gen383,
+    gen384,
+    gen385,
+    gen386,
+    gen387,
+    gen388,
+    gen389,
+    gen39,
+    gen390,
+    gen391,
+    gen392,
+    gen393,
+    gen394,
+    gen395,
+    gen396,
+    gen397,
+    gen398,
+    gen399,
+    gen4,
+    gen40,
+    gen400,
+    gen401,
+    gen402,
+    gen403,
+    gen404,
+    gen405,
+    gen406,
+    gen407,
+    gen408,
+    gen409,
+    gen41,
+    gen410,
+    gen411,
+    gen412,
+    gen413,
+    gen414,
+    gen415,
+    gen416,
+    gen417,
+    gen418,
+    gen419,
+    gen42,
+    gen420,
+    gen421,
+    gen422,
+    gen423,
+    gen424,
+    gen425,
+    gen426,
+    gen427,
+    gen428,
+    gen429,
+    gen43,
+    gen430,
+    gen431,
+    gen432,
+    gen433,
+    gen434,
+    gen435,
+    gen436,
+    gen437,
+    gen438,
+    gen439,
+    gen44,
+    gen440,
+    gen441,
+    gen442,
+    gen443,
+    gen444,
+    gen445,
+    gen446,
+    gen447,
+    gen448,
+    gen449,
+    gen45,
+    gen450,
+    gen451,
+    gen452,
+    gen453,
+    gen454,
+    gen455,
+    gen456,
+    gen457,
+    gen458,
+    gen459,
+    gen46,
+    gen460,
+    gen461,
+    gen462,
+    gen463,
+    gen464,
+    gen465,
+    gen466,
+    gen467,
+    gen468,
+    gen469,
+    gen47,
+    gen470,
+    gen471,
+    gen472,
+    gen473,
+    gen474,
+    gen475,
+    gen476,
+    gen477,
+    gen478,
+    gen479,
+    gen48,
+    gen480,
+    gen481,
+    gen482,
+    gen483,
+    gen484,
+    gen485,
+    gen486,
+    gen487,
+    gen488,
+    gen489,
+    gen49,
+    gen490,
+    gen491,
+    gen492,
+    gen493,
+    gen494,
+    gen495,
+    gen496,
+    gen497,
+    gen498,
+    gen499,
+    gen5,
+    gen50,
+    gen51,
+    gen52,
+    gen53,
+    gen54,
+    gen55,
+    gen56,
+    gen57,
+    gen58,
+    gen59,
+    gen6,
+    gen60,
+    gen61,
+    gen62,
+    gen63,
+    gen64,
+    gen65,
+    gen66,
+    gen67,
+    gen68,
+    gen69,
+    gen7,
+    gen70,
+    gen71,
+    gen72,
+    gen73,
+    gen74,
+    gen75,
+    gen76,
+    gen77,
+    gen78,
+    gen79,
+    gen8,
+    gen80,
+    gen81,
+    gen82,
+    gen83,
+    gen84,
+    gen85,
+    gen86,
+    gen87,
+    gen88,
+    gen89,
+    gen9,
+    gen90,
+    gen91,
+    gen92,
+    gen93,
+    gen94,
+    gen95,
+    gen96,
+    gen97,
+    gen98,
+    gen99,
+  ];
+}
+
 class $AssetsIconsVecGen {
   const $AssetsIconsVecGen();
 
@@ -4109,5 +6117,7 @@ class Assets {
 
   static const $AssetsIconfontGen iconfont = $AssetsIconfontGen();
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsIconsSinteticGen iconsSintetic =
+      $AssetsIconsSinteticGen();
   static const $AssetsIconsVecGen iconsVec = $AssetsIconsVecGen();
 }
